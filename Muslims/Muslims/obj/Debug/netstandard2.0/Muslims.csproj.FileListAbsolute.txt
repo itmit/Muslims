@@ -1,0 +1,6 @@
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\bin\Debug\netstandard2.0\Muslims.deps.json
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\bin\Debug\netstandard2.0\Muslims.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Muslims.csprojAssemblyReference.cache
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Muslims.csproj.CoreCompileInputs.cache
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Muslims.AssemblyInfoInputs.cache
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Muslims.AssemblyInfo.cs
