@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Order"
+             Title="ПОРЯДОК СОВЕРШЕНИЯ НАМАЗА">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="С указанием фраз и молитв, которые произносятся во время движений в намазе, а также ссылка на рисунок описывающий положение молящегося при произнесении той или иной молитвы."></Label>
+            <Image Source="poryadok_soversheniya.jpg"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Muslims</id>
+    <version>1.0.0</version>
+    <authors>Muslims</authors>
+    <owners>Muslims</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DLToolkit.Forms.Controls.FlowListView" version="2.0.11" exclude="Build,Analyzers" />
+        <dependency id="Rg.Plugins.Popup" version="1.1.5.188" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="3.6.0.220655" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\bin\Release\netstandard2.0\Muslims.dll" target="lib\netstandard2.0\Muslims.dll" />
+  </files>
+</package>
