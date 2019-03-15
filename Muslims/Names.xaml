@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Names"
+             Title="Мусульманские имена">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <Image Source="bg_biblioteka.jpg" Scale="1.2"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                        RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+            <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}" Margin="0,50,0,0">
+                <ListView x:Name="Names_Menu" ItemSelected ="Names_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                                        <Label Text="{Binding Names_Title}"
+                   TextColor="#ffffff" VerticalOptions="End" FontSize="20"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

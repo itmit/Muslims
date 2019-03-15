@@ -157,6 +157,8 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\d
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\drawable\time_4.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\drawable\logo_start.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\drawable\picture.jpg
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\drawable\bg_biblioteka.jpg
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\res\drawable\ico_prilozh.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\bin\Release\Muslims.Android.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\linksrc\Muslims.Android.dll.mdb
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.Droid.dll.mdb

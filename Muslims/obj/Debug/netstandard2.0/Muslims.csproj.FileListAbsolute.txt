@@ -25,3 +25,11 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Pra
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Gallery_1.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\PopupGallary.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Start.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Test_News_Page.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Vocabulary.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Mans_Names.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Names.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Womans_Names.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Child_Rights.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Kids.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Debug\netstandard2.0\Upbringing.xaml.g.cs

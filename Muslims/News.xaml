@@ -6,7 +6,7 @@
              Title="НОВОСТИ">
     <ContentPage Title ="СОБЫТИЯ">
         <StackLayout>
-            <ListView x:Name="News_Developments" RowHeight="120">
+            <ListView x:Name="News_Developments" RowHeight="120" ItemSelected="ListMenu_NewsSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -58,10 +58,10 @@
     </ContentPage>
     <ContentPage Title ="ДАТЫ">
         <StackLayout>
-        <ListView x:Name="News_Dates" RowHeight="120">
+            <ListView x:Name="News_Dates" RowHeight="120">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
+                        <ViewCell>
                        <StackLayout Orientation="Vertical"  Margin="15,5,15,5">
                          <Label Text="{Binding NewsTitle_Dates}" Font="Bold,15"/>
                             <Grid>

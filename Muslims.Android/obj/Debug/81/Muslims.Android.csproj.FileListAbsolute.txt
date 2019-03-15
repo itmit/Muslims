@@ -165,6 +165,8 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\dra
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\drawable\time_4.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\drawable\logo_start.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\drawable\picture.jpg
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\drawable\bg_biblioteka.jpg
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\res\drawable\ico_prilozh.png
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\bin\Debug\netstandard2.0\Muslims.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\bin\Debug\Muslims.dll.mdb
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Debug\81\linksrc\Muslims.dll.mdb

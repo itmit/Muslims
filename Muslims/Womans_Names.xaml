@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Womans_Names"
+             Title="Женские мусульманские имена">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <RelativeLayout>
+            <Image Source="bg_biblioteka.jpg" Scale="1.2"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                        RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+            <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}" Margin="5,80,0,0">
+                <ScrollView>
+                    <StackLayout>
+                        <Label Font="Bold,20" TextColor="Red" Text="Aaлия	         " />
+                        <Label Text="Высокая, возвеличенная                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aасма	         " />
+                        <Label Text="Добродетельная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aбир	         " />
+                        <Label Text="Аромат                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aблаа	         " />
+                        <Label Text="Совершенная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aдиля	         " />
+                        <Label Text="Справедливая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aззa	         " />
+                        <Label Text="Величественная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aзиза	         " />
+                        <Label Text="Дорогая, драгоценная                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aзхар	         " />
+                        <Label Text="Цветущая                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aйда	         " />
+                        <Label Text="Имя собств.                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aйех	         " />
+                        <Label Text="Признак, отличие                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aйша	         " />
+                        <Label Text="Живущая, живая; имя жены Пророка Мухаммада, мир ему                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aлия	         " />
+                        <Label Text="Возвышенная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aльмас	         " />
+                        <Label Text="Алмаз                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aмаль	         " />
+                        <Label Text="Надежда                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aмани	         " />
+                        <Label Text="Желанная                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aматулла	     " />
+                        <Label Text="Раба Божия                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aмина	         " />
+                        <Label Text="Надежная                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aмира	         " />
+                        <Label Text="Принцесса                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aнан	         " />
+                        <Label Text="Облака                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aнбар	         " />
+                        <Label Text="Благоухающая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aнвар	         " />
+                        <Label Text="Светящаяся                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aниса	         " />
+                        <Label Text="Дружелюбная, ласковая                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aрва	         " />
+                        <Label Text="Горная козочка                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aрибах	         " />
+                        <Label Text="Умная, проницательная                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aридж	         " />
+                        <Label Text="Благоухающая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aруб	         " />
+                        <Label Text="Любящая своего мужа                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aсалах	         " />
+                        <Label Text="Чистота, благочестие                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aсах	         " />
+                        <Label Text="Зеленое дерево                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aсилях	         " />
+                        <Label Text="Благочестивая                                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aсия	         " />
+                        <Label Text="Помогающая слабым и лечащая их                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aсма	         " />
+                        <Label Text="Дочь Абу Бакра, добродетельная                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aфаф	         " />
+                        <Label Text="Целомудрие                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aфрах	         " />
+                        <Label Text="Счастливая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aхд	             " />
+                        <Label Text="Верная                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aхлям	         " />
+                        <Label Text="Мечтательная                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maляк	         " />
+                        <Label Text="Ангел                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maналь	         " />
+                        <Label Text="Достижение                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maнар	         " />
+                        <Label Text="Светящаяся                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maрам	         " />
+                        <Label Text="Стремление                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maрьям	         " />
+                        <Label Text="Имя матери Иисуса, мир ему                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mаха	         " />
+                        <Label Text="Газель                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуна	         " />
+                        <Label Text="Желание                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mунира	         " />
+                        <Label Text="Светящаяся, излучающая свет                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуфида	         " />
+                        <Label Text="Полезная                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mухджа	         " />
+                        <Label Text="Душа                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mушира	         " />
+                        <Label Text="Советующая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taмазур	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Tаруб	         " />
+                        <Label Text="Радостная, веселая                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аамаль	         " />
+                        <Label Text="Надежная                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абир (Анбар)	 " />
+                        <Label Text="Иделаьно сложенная                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Адаб	         " />
+                        <Label Text="Вежливая, учтивая                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Азиза	         " />
+                        <Label Text="Близкая, родная, уважаемая                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Азхар	         " />
+                        <Label Text="Цветки, бутоны                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айда (Аида)	     " />
+                        <Label Text="Посещающая, возвращающаяся (к благому)                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айе	             " />
+                        <Label Text="Уникальная                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айла (Айлы)	     " />
+                        <Label Text="Лунная, освещенная луной, красивая подобно луне                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айша (Аиша) 	 " />
+                        <Label Text="Процветающая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Алия	         " />
+                        <Label Text="Величественная, благородная                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Алсу	         " />
+                        <Label Text="Красивая, прекрасная, розоволицая                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Альфия	         " />
+                        <Label Text="Дружелюбная, вызывающая симпатию                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амаль	         " />
+                        <Label Text="Стремление                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амина	         " />
+                        <Label Text="Верная, надежная, честная                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амира	         " />
+                        <Label Text="Принцесса                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Анан	         " />
+                        <Label Text="Облака                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Анвар	         " />
+                        <Label Text="Лучи света                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аниса	         " />
+                        <Label Text="Дружелюбная, приветливая                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ариба (Ахлам)	 " />
+                        <Label Text="Остроумная                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аруб	         " />
+                        <Label Text="Любящая своего мужа                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Асама (Асма)	 " />
+                        <Label Text="Чистота                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Асиля	         " />
+                        <Label Text="Принадлежащая к благородному роду; драгоценная                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Асия	         " />
+                        <Label Text="Заботящаяся о слабых                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Афаф	         " />
+                        <Label Text="Целомудрие, непорочность                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Афраа	         " />
+                        <Label Text="Белая                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бaдрийя	         " />
+                        <Label Text="Луноликая                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Баасыма	         " />
+                        <Label Text="Улыбающаяся                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бадрия	         " />
+                        <Label Text="Подобная полной луне                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Балкис	         " />
+                        <Label Text="Имя царицы Савской                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Банан	         " />
+                        <Label Text="Имя собств.                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бара	         " />
+                        <Label Text="Великолепная                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бараа'а	         " />
+                        <Label Text="Превосходная                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Басима (Басма)	 " />
+                        <Label Text="Улыбающаяся                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Басма	         " />
+                        <Label Text="Улыбка                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Басыма	         " />
+                        <Label Text="Улыбающаяся                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Батуль	         " />
+                        <Label Text="Дева, девственница, Дева Мария                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бахийя	         " />
+                        <Label Text="Красивая, сияющая                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бахира	         " />
+                        <Label Text="Сверкающая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бахия	         " />
+                        <Label Text="Красивая, лучезарная                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Башиира	         " />
+                        <Label Text="Благовествующая                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Башира	         " />
+                        <Label Text="Благовествующая                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бусайна	         " />
+                        <Label Text="Красивая телом                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бушра	         " />
+                        <Label Text="Хорошее предзнаменование                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Варда	         " />
+                        <Label Text="Роза                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вафа	         " />
+                        <Label Text="Верность                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Видад	         " />
+                        <Label Text="Любовь, дружба                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гада	         " />
+                        <Label Text="Красивая                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гайда	         " />
+                        <Label Text="Изящная                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Галия	         " />
+                        <Label Text="Дорогая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гасун	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гульнара	     " />
+                        <Label Text="Гранатовый цветок                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гульфия 	     " />
+                        <Label Text="Похожая на цветок                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гуля	         " />
+                        <Label Text="Цветок                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гюльджан	     " />
+                        <Label Text="Роза души                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дельфуза	     " />
+                        <Label Text="Серебро души                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джаля	         " />
+                        <Label Text="Ясность; прояснение                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джамиля	         " />
+                        <Label Text="Красивая, прекрасная                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джанан	         " />
+                        <Label Text="Сердце, душа                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джаннат (Джанета)" />
+                        <Label Text="йская обитель                                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джумана	         " />
+                        <Label Text="Жемчужина                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Духа	         " />
+                        <Label Text="Утро                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Заира	         " />
+                        <Label Text="Гостья                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зайна	         " />
+                        <Label Text="Красивая, прекрасная                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зайнаб	         " />
+                        <Label Text="Имя дочери Пророка Мухаммада, мир ему                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Закийя	         " />
+                        <Label Text="Чистая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Закия	         " />
+                        <Label Text="Чистая, невинная; смекалистая, сообразительная, догадливая                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зарима (Зарема)	 " />
+                        <Label Text="Воспламеняющая; зажигающая                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зафира	         " />
+                        <Label Text="Побеждающая, удачливая                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Захидат (Захида)" />
+                        <Label Text="Жщина, ведущая аскетический образ жизни                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Захира	         " />
+                        <Label Text="Яркая, светящаяся, блестящая                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Захра	         " />
+                        <Label Text="Белая, светлая                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Захрах	         " />
+                        <Label Text="Цветок, красота, звезда                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зиля	         " />
+                        <Label Text="Милосердная, добродушная, с чистым сердцем                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зульфия	         " />
+                        <Label Text="Обладательница кудрявых волос; симпатичная, миловидная, привлекательная                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зухра	         " />
+                        <Label Text="Цветок, звезда                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ибтихадж	     " />
+                        <Label Text="Радость                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Издихар	         " />
+                        <Label Text="Цветущая; цветение                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Икрам	         " />
+                        <Label Text="Честь; гостеприимство; великодушие                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ильнара (Эльнара)" />
+                        <Label Text="дной свет, свет Родины                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ильхам	         " />
+                        <Label Text="Вдохновение                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Иман	         " />
+                        <Label Text="Вера                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Имтисаль	     " />
+                        <Label Text="Вежливая                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Инайя	         " />
+                        <Label Text="Забота                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Инам	         " />
+                        <Label Text="Доброта, благотворительность                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Инас	         " />
+                        <Label Text="Дружелюбие, общительность                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Интисар	         " />
+                        <Label Text="Победа                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Камиля	         " />
+                        <Label Text="Совершенная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Камля	         " />
+                        <Label Text="Совершенная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Карима	         " />
+                        <Label Text="Щедрая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кяусар	         " />
+                        <Label Text="Река в Раю                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ламис	         " />
+                        <Label Text="Мягкая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Латыфа	         " />
+                        <Label Text="Мягкая, нежная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лафифа	         " />
+                        <Label Text="Добрая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лейла (Ляйле)	 " />
+                        <Label Text="Черноволосая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лина	         " />
+                        <Label Text="Нежная                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Любаба	         " />
+                        <Label Text="Мягкосердечная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ляля	         " />
+                        <Label Text="тюльпан                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ляма	         " />
+                        <Label Text="Красивая                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лямис	         " />
+                        <Label Text="Мягкая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лямья	         " />
+                        <Label Text="Красавица                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Маджида	         " />
+                        <Label Text="Величественная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мадиха	         " />
+                        <Label Text="Заслуживающая похвалы                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Маймуна	         " />
+                        <Label Text="Благословенная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Майсун	         " />
+                        <Label Text="Обладающая красивым лицом и телом                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Малика	         " />
+                        <Label Text="Царица, королева                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Маляк	         " />
+                        <Label Text="Ангел                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Маналь	         " />
+                        <Label Text="Достижение                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Манар	         " />
+                        <Label Text="Светлая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Марам	         " />
+                        <Label Text="Стремление                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Марифа	         " />
+                        <Label Text="Знание, познание                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Махфуза	         " />
+                        <Label Text="Охраняемая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мунира	         " />
+                        <Label Text="Освещающая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Муфида	         " />
+                        <Label Text="Нужная                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мухджа	         " />
+                        <Label Text="Душа                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мушира	         " />
+                        <Label Text="Светлая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Набиля	         " />
+                        <Label Text="Знаменитая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наваль	         " />
+                        <Label Text="Подарок                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Навар	         " />
+                        <Label Text="Цветок                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наджа	         " />
+                        <Label Text="Успех                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наджат	         " />
+                        <Label Text="Невредимая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наджийа	         " />
+                        <Label Text="Безопасность                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наджля	         " />
+                        <Label Text="Широкоглазая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Надида	         " />
+                        <Label Text="Равная                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Надира	         " />
+                        <Label Text="Редкая, драгоценная                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Надия	         " />
+                        <Label Text="Первая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Надья	         " />
+                        <Label Text="Призывающая                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Назаха	         " />
+                        <Label Text="Чистота, честность, справедливость                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Назийя	         " />
+                        <Label Text="Оптимистичная, полная надежды                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Назира	         " />
+                        <Label Text="Предвещающая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Назиха	         " />
+                        <Label Text="Честная, правдивая                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Назия	         " />
+                        <Label Text="Оптимистка                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наиля	         " />
+                        <Label Text="Добивающаяся, достигающая                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наима	         " />
+                        <Label Text="Благородство, милость                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Найля	         " />
+                        <Label Text="Достигающая своего                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Найрият	         " />
+                        <Label Text="Освещающая, сияющая                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Насира	         " />
+                        <Label Text="Несущая победу, помощь                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Насыха	         " />
+                        <Label Text="Советующая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Науваль	         " />
+                        <Label Text="Подарок                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Наувар	         " />
+                        <Label Text="Цветок                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нафиса	         " />
+                        <Label Text="Драгоценная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нахля	         " />
+                        <Label Text="Пчелка                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нашида	         " />
+                        <Label Text="Песня                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нашита	         " />
+                        <Label Text="Энергичная, полная жизни                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нашиха	         " />
+                        <Label Text="Помощник, советчик                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Несаим	         " />
+                        <Label Text="Цветок                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нибааль	         " />
+                        <Label Text="Благородная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нигара	         " />
+                        <Label Text="Симпатичная, миловидная, привлекательная                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нида	         " />
+                        <Label Text="Призывающая                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нимаат	         " />
+                        <Label Text="Благословения                                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нисайем	         " />
+                        <Label Text="Цветок                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нудхар	         " />
+                        <Label Text="Золото                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нузар	         " />
+                        <Label Text="Золото                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нузха	         " />
+                        <Label Text="Добродетельная, честная                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нур	             " />
+                        <Label Text="Свет                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нусайба	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нуф	             " />
+                        <Label Text="Вершина горы                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Нуха	         " />
+                        <Label Text="Ум, разум                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рабаб	         " />
+                        <Label Text="Белое облако                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рабия	         " />
+                        <Label Text="Сад                                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Радия	         " />
+                        <Label Text="Довольная                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Райда	         " />
+                        <Label Text="Лидер                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Райхана	         " />
+                        <Label Text="Наслаждение, удовольствие, блаженство                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ранд	         " />
+                        <Label Text="Дерево с приятным запахом                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ранийя	         " />
+                        <Label Text="Веселая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рауда	         " />
+                        <Label Text="Сад                                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рафа	         " />
+                        <Label Text="Счастье, процветание                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Раша	         " />
+                        <Label Text="Молодая газель                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рашида	         " />
+                        <Label Text="Мудрая, зрелая                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рим	             " />
+                        <Label Text="Газель                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рима	         " />
+                        <Label Text="Белая антилопа                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Римма	         " />
+                        <Label Text="Красивая, всем нравящаяся                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Роза	         " />
+                        <Label Text="Прекрасный цветок розы; букет цветов                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рувайда	         " />
+                        <Label Text="Идущая мягким шагом                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рукайя	         " />
+                        <Label Text="Имя дочери Пророка Мухаммада, мир ему                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рукан	         " />
+                        <Label Text="Устойчивая, уверенная                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Руфина	         " />
+                        <Label Text="Подруга                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Саадат (Сагадат)" />
+                        <Label Text="Сстье, благополучие, успех                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Саалима	         " />
+                        <Label Text="Непорочная, здоровая                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сабира	         " />
+                        <Label Text="Терпеливая                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Савда	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Савсан	         " />
+                        <Label Text="Лилия                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сакина	         " />
+                        <Label Text="Божественный мир в душе                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салима	         " />
+                        <Label Text="Непорочная, здоровая                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салиха	         " />
+                        <Label Text="Хорошая, благая                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салма	         " />
+                        <Label Text="Мирная                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сальва	         " />
+                        <Label Text="Утешение, спокойствие                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сальма	         " />
+                        <Label Text="Тихая, мирная, спокойная                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самаах	         " />
+                        <Label Text="Щедрость                                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самар	         " />
+                        <Label Text="Собеседница                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самийя	         " />
+                        <Label Text="Возвышенная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самира	         " />
+                        <Label Text="Поддерживающая разговор                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самиха	         " />
+                        <Label Text="Щедрая                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сана	         " />
+                        <Label Text="Великолепие, блеск                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Санаа	         " />
+                        <Label Text="Благодарность                                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сараа	         " />
+                        <Label Text="Богатство                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сафа	         " />
+                        <Label Text="Ясность, чистота,                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сафия	         " />
+                        <Label Text="Спокойная, чистая; лучшая подруга                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сахар	         " />
+                        <Label Text="Рассвет                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сахля	         " />
+                        <Label Text="Гладкая, мягкая, быстрая, плавная                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сихам	         " />
+                        <Label Text="Стрела                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="София (Сафия)	 " />
+                        <Label Text="Беззаботная, спокойная, чистая                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сумайя	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сумув	         " />
+                        <Label Text="Высота, величие                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сурайя	         " />
+                        <Label Text="Звезда                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Суха	         " />
+                        <Label Text="Звезда                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сухайля	         " />
+                        <Label Text="Гладкая, плавная                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сухайма	         " />
+                        <Label Text="Маленькая стрелка                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сухайр	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Талия	         " />
+                        <Label Text="Приятная; веселая                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тана	         " />
+                        <Label Text="Благодарность                                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тара	         " />
+                        <Label Text="богатство                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тарут	         " />
+                        <Label Text="Весёлая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тахира	         " />
+                        <Label Text="Чистая, целомудренная                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Турайа	         " />
+                        <Label Text="Звезда                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уарда	         " />
+                        <Label Text="Роза                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уафа	         " />
+                        <Label Text="Преданность                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уафика	         " />
+                        <Label Text="Удачливая                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уафия	         " />
+                        <Label Text="Преданная                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уидад	         " />
+                        <Label Text="Любовь, дружба                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уиджан	         " />
+                        <Label Text="Чувствительная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уисааль	         " />
+                        <Label Text="Союз любви                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаатин	         " />
+                        <Label Text="Очаровательная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фавзия	         " />
+                        <Label Text="Удачливая                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фадиля	         " />
+                        <Label Text="Добродетель                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фадуа	         " />
+                        <Label Text="Жертвующая собой                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фадыля	         " />
+                        <Label Text="Достоинство                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаиза	         " />
+                        <Label Text="Победительница, несущая победу                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Факия	         " />
+                        <Label Text="Веселая, остроумная, забавная                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаляк	         " />
+                        <Label Text="Заря                                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарида	         " />
+                        <Label Text="Единственная, редкая,                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фариха	         " />
+                        <Label Text="Счастливая, радостная                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатима	         " />
+                        <Label Text="Взрослая, понимающая                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатин (Фатина)	 " />
+                        <Label Text="Пленительная, очаровательная                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатина	         " />
+                        <Label Text="Очаровательная                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатыма	         " />
+                        <Label Text="Имя дочери Пророка Мухаммада, мир ему                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаузия	         " />
+                        <Label Text="Удачливая, побеждающая                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фирдаус	         " />
+                        <Label Text="Рай                                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фиряль	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хаадия	         " />
+                        <Label Text="Указывающая праведный путь                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хабиба	         " />
+                        <Label Text="Любимая, близкая, дорогая                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хавля	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хадиджа	         " />
+                        <Label Text="Имя жены Пророка Мухаммада, мир ему                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хадийя	         " />
+                        <Label Text="Подарок                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хадия	         " />
+                        <Label Text="Путь к праведности                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайам	         " />
+                        <Label Text="Влюбленная                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайат	         " />
+                        <Label Text="Жизнь                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайрийя	         " />
+                        <Label Text="Щедрая, добрая                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайфа	         " />
+                        <Label Text="Стройная, красивая телом                                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайям	         " />
+                        <Label Text="Безумно любящая                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайят	         " />
+                        <Label Text="Жизнь                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хала	         " />
+                        <Label Text="Сияние                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халида	         " />
+                        <Label Text="Бессмертная, вечная                                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халима	         " />
+                        <Label Text="Нежная; терпеливая                                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халя	         " />
+                        <Label Text="Ореол                                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хамида	         " />
+                        <Label Text="Достойная похвалы                                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хана	         " />
+                        <Label Text="Счастье                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ханан	         " />
+                        <Label Text="Mилосердие                                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ханийя	         " />
+                        <Label Text="Довольная, счастливая                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ханифа	         " />
+                        <Label Text="Истинно верующая                                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хания	         " />
+                        <Label Text="Довольная, счастливая                                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хасна	         " />
+                        <Label Text="Хорошая                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хесса	         " />
+                        <Label Text="Судьба                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хинд	         " />
+                        <Label Text="Имя собственное                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Худа	         " />
+                        <Label Text="Прямой путь                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хулюк	         " />
+                        <Label Text="Бессмертие, вечность                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хума	         " />
+                        <Label Text="Птица, обитающая в тихом месте, и каждый раз, прилетая к людям, она приносит им радость" />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хурийя	         " />
+                        <Label Text="Свободная                                                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хусн	         " />
+                        <Label Text="Красота, краса                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шаадия	         " />
+                        <Label Text="Поющая, певица                                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шадия	         " />
+                        <Label Text="Певица                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шарифа	         " />
+                        <Label Text="Благородная                                                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шатха	         " />
+                        <Label Text="Благоухающая                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльвира (Ильвира)" />
+                        <Label Text="ерегающая всех, защищающая                                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльмира (Ильмира)" />
+                        <Label Text="рядочная, совестливая, славная, известная                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Юмн	             " />
+                        <Label Text="Удача, успех                                                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Юсраа	         " />
+                        <Label Text="Имя собственное (облегчающая)                                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Якутах	         " />
+                        <Label Text="Изумруд                                                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ямха	         " />
+                        <Label Text="Голубка (птица)                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ясира	         " />
+                        <Label Text="Снисходительная                                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ясмин	         " />
+                        <Label Text="Жасмин                                                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яфья	         " />
+                        <Label Text="Высокая, возвышенная                                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яфьях	         " />
+                        <Label Text="Высокая                                                                                " />
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
