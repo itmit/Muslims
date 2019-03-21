@@ -18,7 +18,19 @@ namespace Muslims
 		}
         public void Button_Click1(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Gallery_1());
+            Navigation.PushAsync(new First_Mosque_Gallery());
+        }
+        public void Button_Click2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Second_Mosque_Gallery());
+        }
+        public void Button_Click3(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Kurban_Gallery());
+        }
+        public void Button_Click7(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Y2013_Gallery());
         }
     }
 }

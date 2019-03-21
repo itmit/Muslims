@@ -21,7 +21,6 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\M
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Muslims.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Muslims.pdb
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Muslims.csprojAssemblyReference.cache
-C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Gallery_1.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\PopupGallary.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\XamlC.stamp
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Start.xaml.g.cs
@@ -33,3 +32,4 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\T
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Upbringing.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Vocabulary.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Womans_Names.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard2.0\Gallery.xaml.g.cs

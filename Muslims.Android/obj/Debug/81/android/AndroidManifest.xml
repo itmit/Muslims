@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Muslims" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-sdk android:targetSdkVersion="27" android:minSdkVersion="11" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Muslims.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="Muslims.Android" android:icon="@drawable/icoi_prilozh_72" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Muslims" android:theme="@style/MainTheme" android:name="md5d6470085c619adf633123b2b5b37840b.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

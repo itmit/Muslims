@@ -25,8 +25,12 @@
         Padding="20, 20, 20, 20">
         <Image>
             <Image.Source>
-                <FileImageSource File="spb_1_1.jpg" />
+                <FileImageSource File="{Binding Image_Path}" />
             </Image.Source>
+            <Image.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="LeftSwiped"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="RightSwiped"/>
+            </Image.GestureRecognizers>
         </Image>
     </StackLayout>
 </pages:PopupPage>
