@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Muslims.Models;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Muslims
@@ -12,11 +14,12 @@ namespace Muslims
             InitializeComponent();
 
             MainPage = new MainPage();
+
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            new NamazTime();
         }
 
         protected override void OnSleep()

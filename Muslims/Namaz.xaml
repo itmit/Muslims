@@ -24,12 +24,11 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Text="Порядок совершения" Clicked ="Button_Click1" Grid.Row="0" Grid.Column="0" Image="Order_1.png"/>
-            <Button Text="Условия совершения" Clicked ="Button_Click2" Grid.Row="0" Grid.Column="1" Image="Conditions_2.png"/>
-            <Button Text="Совершение" Clicked ="Button_Click3" Grid.Row="1" Grid.Column="0" Image="Perpetration_3.png"/>
-            <Button Text="Время намазов" Clicked ="Button_Click4" Grid.Row="1" Grid.Column="1" Image="Time_4.png"/>
-            <Button Text="Специальные молитвы" Clicked ="Button_Click5" Grid.Row="2" Grid.Column="0" Image="Prayers_5.png"/>
-            <Button Text="..." Clicked ="Button_Click1" Grid.Row="2" Grid.Column="1" Image="ic.png" ContentLayout="Top,90"/>
+            <Button Text="Порядок совершения" Clicked ="Button_Click1" Grid.Row="0" Grid.Column="0" Image="Order_1_blue.png"/>
+            <Button Text="Условия совершения" Clicked ="Button_Click2" Grid.Row="0" Grid.Column="1" Image="Conditions_2_blue.png"/>
+            <Button Text="Совершение" Clicked ="Button_Click3" Grid.Row="1" Grid.Column="0" Image="Perpetration_3_blue.png"/>
+            <Button Text="Время намазов" Clicked ="Button_Click4" Grid.Row="1" Grid.Column="1" Image="Time_4_blue.png"/>
+            <Button Text="Специальные молитвы" Clicked ="Button_Click5" Grid.Row="2" Grid.Column="0" Image="Prayers_5_blue.png" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

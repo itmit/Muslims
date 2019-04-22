@@ -32,5 +32,21 @@ namespace Muslims
         {
             Navigation.PushAsync(new Y2013_Gallery());
         }
+        public void Button_Click4(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Y2010());
+        }
+        public void Button_Click5(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Y2011());
+        }
+        public void Button_Click6(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Y2012());
+        }
+        public void Button_Click8(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Y2014_Gallery());
+        }
     }
 }

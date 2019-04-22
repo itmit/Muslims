@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Plugin.LocalNotifications;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -30,7 +30,17 @@ namespace Muslims
         }
         public void Button_Click4(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Namaz_Time());
+            //Navigation.PushAsync(new Namaz_Time());
+           /* DateTime dt = DateTime.Now.ToLocalTime();
+            int hour_only = dt.Hour;
+            if (hour_only == 11)
+            {
+                CrossLocalNotifications.Current.Show("Время Намаза!", "Пришло время совершить Намаз!");
+            }
+            else
+            {
+                CrossLocalNotifications.Current.Show("Неверное время!", "Неверное время!");
+            }*/
         }
         public void Button_Click5(object sender, EventArgs e)
         {

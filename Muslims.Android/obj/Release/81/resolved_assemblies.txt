@@ -12,12 +12,15 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\andro
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Mono.Android.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\mscorlib.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Muslims.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Plugin.Connectivity.Abstractions.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Plugin.Connectivity.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Plugin.LocalNotifications.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Rg.Plugins.Popup.Droid.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\SkiaSharp.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Core.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.dll
-C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Net.Http.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Xml.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Xml.Linq.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -43,6 +46,7 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\andro
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Net.Http.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims.Android\obj\Release\81\android\assets\Mono.Security.dll

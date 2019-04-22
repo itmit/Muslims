@@ -1,85 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Muslims.News"
-             BarBackgroundColor="#0b361b"
-             Title="НОВОСТИ">
-    <ContentPage Title ="СОБЫТИЯ">
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="Muslims.News" 
+            xmlns:local="clr-namespace:Muslims"
+            xmlns:Cell="clr-namespace:Muslims.CellViews;assembly=Muslims"
+            BarBackgroundColor="#67c4e5" 
+            Title="НОВОСТИ">        
+    <ContentPage Title ="Новости">
         <StackLayout>
-            <ListView x:Name="News_Developments" RowHeight="120" ItemSelected="ListMenu_NewsSelected">
+            <ListView x:Name="FeedListNews" CachingStrategy="RecycleElement" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding FeedList}" HasUnevenRows="true" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Vertical"  Margin="15,5,15,5">
-                                <Label Text="{Binding NewsTitle_Developments}" Font="Bold,15"/>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*"/>
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Label Text="{Binding NewsContent_Developments}" FontSize="10" Grid.Row="0" Grid.Column="0"/>
-                                    <Image Source="{Binding NewsImage_Developments}" Aspect="AspectFill" Grid.Row="0" Grid.Column="1"/>
-                                </Grid>
-                            </StackLayout>
-                        </ViewCell>
+                        <Cell:CellView></Cell:CellView>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
     </ContentPage>
-    <ContentPage Title ="МЕРОПРИЯТИЯ">
+    <ContentPage Title ="Газета" >
         <StackLayout>
-            <ListView x:Name="News_Activity" RowHeight="120">
+            <ListView  x:Name="FeedListGazeta" CachingStrategy="RecycleElement" SelectedItem="{Binding SelectedItemGazeta}" ItemsSource="{Binding FeedListGazeta}" HasUnevenRows="true" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Orientation="Vertical"  Margin="15,5,15,5">
-                                <Label Text="{Binding NewsTitle_Activity}" Font="Bold,15"/>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*"/>
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Label Text="{Binding NewsContent_Activity}" FontSize="10" Grid.Row="0" Grid.Column="0"/>
-                                    <Image Source="{Binding NewsImage_Activity}" Aspect="AspectFill" Grid.Row="0" Grid.Column="1"/>
-                                </Grid>
-                            </StackLayout>
-                        </ViewCell>
+                        <Cell:CellView></Cell:CellView>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
     </ContentPage>
-    <ContentPage Title ="ДАТЫ">
+    <ContentPage Title ="Объявления">
         <StackLayout>
-            <ListView x:Name="News_Dates" RowHeight="120">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                        <ViewCell>
-                       <StackLayout Orientation="Vertical"  Margin="15,5,15,5">
-                         <Label Text="{Binding NewsTitle_Dates}" Font="Bold,15"/>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="2*" />
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-                                <Label Text="{Binding NewsContent_Dates}" FontSize="10" Grid.Row="0" Grid.Column="0"/>
-                                <Image Source="{Binding NewsImage_Dates}" Aspect="AspectFill" Grid.Row="0" Grid.Column="1"/>
-                            </Grid>
-                       </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            <ListView  x:Name="FeedListAdvert" CachingStrategy="RecycleElement" SelectedItem="{Binding SelectedItemAdvert}" ItemsSource="{Binding FeedListAdvert}" HasUnevenRows="true" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Cell:CellView></Cell:CellView>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage>
 </TabbedPage>

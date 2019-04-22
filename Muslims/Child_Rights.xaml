@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Muslims.Child_Rights"
+             BackgroundColor="#67c4e5"
              Title="Положения и права ребёнка в исламе">
     <ContentPage.Resources>
         <Style TargetType="Label">
@@ -10,7 +11,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <RelativeLayout>
-                <Image Source="bg_biblioteka.jpg" Scale="1.2"
+                <Image Source="bg_biblioteka_blue.jpg"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                         RelativeLayout.HeightConstraint=
                   "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>

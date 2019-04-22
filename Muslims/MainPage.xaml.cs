@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Plugin.Connectivity;
+using Android.Content.PM;
+using Android.Content;
 
 namespace Muslims
 {
+
     public partial class MainPage : MasterDetailPage
     {
         public MainPage()
@@ -62,13 +66,34 @@ namespace Muslims
                 }
                 else if (menu.MenuID.Equals("3"))
                 {
-                    Detail = new NavigationPage(new News());
-                    IsPresented = false;
+                    if (IsConnected() == true)
+                    {
+                        Detail = new NavigationPage(new News());
+                        IsPresented = false;
+                    }
+                    else
+                    {
+                       DisplayAlert("Ошибка", "Отсутствует подключение к сети!", "Ок");
+                    }
                 }
                 else if (menu.MenuID.Equals("4"))
                 {
-                    Detail = new NavigationPage(new Koran());
-                    IsPresented = false;
+                    Intent QuranMajeed;
+                    PackageManager packageManager = Android.App.Application.Context.PackageManager;
+                    QuranMajeed = packageManager.GetLaunchIntentForPackage("com.pakdata.QuranMajeed");
+                    if (QuranMajeed == null )
+                    {
+                        if (IsConnected() == true)
+                        {
+                            QuranMajeed = new Intent(Intent.ActionView, Android.Net.Uri.Parse("http://play.google.com/store/apps/details?id=com.pakdata.QuranMajeed"));
+                        }
+                        else
+                        {
+                            DisplayAlert("Ошибка", "Отсутствует подключение к сети!", "Ок");
+                        }
+                    }
+                    QuranMajeed.AddFlags(ActivityFlags.NewTask);
+                    Android.App.Application.Context.StartActivity(QuranMajeed);
                 }
                 else if (menu.MenuID.Equals("5"))
                 {
@@ -86,6 +111,14 @@ namespace Muslims
                     IsPresented = false;
                 }
             }
+        }
+        public bool IsConnected()
+        {
+            if (CrossConnectivity.Current.IsConnected)
+            {
+                return true;
+            }
+            return false;
         }
     }
     public class Menu

@@ -4,7 +4,7 @@
              x:Class="Muslims.App">
     <Application.Resources>
         <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="#0b361b"/>
+            <Setter Property="BarBackgroundColor" Value="#67c4e5"/>
             <Setter Property="BarTextColor" Value="White"/>
         </Style>
     </Application.Resources>

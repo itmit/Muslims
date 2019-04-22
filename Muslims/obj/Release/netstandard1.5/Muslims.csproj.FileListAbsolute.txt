@@ -35,3 +35,5 @@ C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\M
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\Muslims.pdb
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\Kurban_Gallery.xaml.g.cs
 C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\Y2013_Gallery.xaml.g.cs
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\Muslims.csprojAssemblyReference.cache
+C:\Users\Animu\source\repos\Muslims\Muslims\Muslims\obj\Release\netstandard1.5\Y2010.xaml.g.cs
