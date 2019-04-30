@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using Plugin.LocalNotifications;
+using Muslims.Parser;
+using System.Threading.Tasks;
 
 namespace Muslims.Models
 {
@@ -10,18 +12,40 @@ namespace Muslims.Models
     {
         public NamazTime()
         {
-            string time = "13:30:00";
+            NamazTimeParser parser = new NamazTimeParser();
+            NamazTimeRows timelist =  parser.NamazTimeDates();
             TimerCallback tm = new TimerCallback(NamazTimer);
-            Timer timer = new Timer(tm, time, 0, 60000);
+            Timer timer = new Timer(tm, timelist, 0, 60 * 1000);
 
             Console.ReadLine();
         }
         public static void NamazTimer(object obj)
         {
-            string dt = DateTime.Now.ToLongTimeString();
-            if(obj.ToString() == dt)
+            int hours = DateTime.Now.Hour;
+            int minutes = DateTime.Now.Minute;
+            if((minutes + 30) >= 60)
             {
-                CrossLocalNotifications.Current.Show("Время Намаза!", "Пришло время совершить Намаз!");
+                hours = hours + 1;
+                minutes = minutes - 30;
+            }
+            else
+            {
+                minutes = minutes + 30;
+            }
+
+            string time = hours.ToString() + ":" + minutes.ToString("D2");
+
+            if (obj is NamazTimeRows namazTime)
+            {
+                if (time.ToString() == namazTime.FirstNamaz 
+                    || time.ToString() == namazTime.SecondNamaz 
+                    || time.ToString() == namazTime.ThirdNamaz 
+                    || time.ToString() == namazTime.FourthNamaz 
+                    || time.ToString() == namazTime.FifthNamaz 
+                    || time.ToString() == namazTime.SixthNamaz)
+                { 
+                    CrossLocalNotifications.Current.Show("Намаз!", "До Намаза осталось 30 минут!");
+                }
             }
         }
     }

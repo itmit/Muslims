@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Muslims.Android.dll" comes first in this list. */
 		"Muslims.Android.dll",
+		"CsvHelper.dll",
 		"DLToolkit.Forms.Controls.FlowListView.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
