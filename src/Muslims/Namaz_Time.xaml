@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Namaz_Time"
+             xmlns:Cell="clr-namespace:Muslims.CellViews;assembly=Muslims"
+             Title="ВРЕМЯ НАМАЗА">
+    <ContentPage.Content>
+        <ScrollView>
+            <TableView RowHeight="50">
+                <TableRoot>
+                    <TableSection Title="Время намазов на сегодня" TextColor="#67c4e5">
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="Утренняя молитва" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding FirstNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="Шурук" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding SecondNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="Зухр" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding ThirdNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="Аср" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding FourthNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="Магриб" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding FifthNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid>
+                                <Label Margin="15" Text="`Иша" FontSize="Medium"/>
+                                <Label Margin="15" Text="{Binding SixthNamaz}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+                </TableView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
