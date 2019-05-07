@@ -13,24 +13,24 @@ namespace Muslims.ViewModel
     {
         public ObservableCollection<NewsItem> FeedList
         {
-            get => feedList;
+            get => _feedList;
             set
             {
-                if (feedList != value)
+                if (_feedList != value)
                 {
-                    feedList = value;
+                    _feedList = value;
                     OnPropertyChanged("FeedList");
                 }
             }
         }
         public ObservableCollection<NewsItem> FeedListGazeta
         {
-            get => feedListGazeta;
+            get => _feedListGazeta;
             set
             {
-                if (feedListGazeta != value)
+                if (_feedListGazeta != value)
                 {
-                    feedListGazeta = value;
+                    _feedListGazeta = value;
                     OnPropertyChanged("FeedListGazeta");
                 }
 
@@ -38,12 +38,12 @@ namespace Muslims.ViewModel
         }
         public ObservableCollection<NewsItem> FeedListAdvert
         {
-            get => feedListAdvert;
+            get => _feedListAdvert;
             set
             {
-                if (feedListAdvert != value)
+                if (_feedListAdvert != value)
                 {
-                    feedListAdvert = value;
+                    _feedListAdvert = value;
                     OnPropertyChanged("FeedListAdvert");
                 }
 
@@ -92,50 +92,47 @@ namespace Muslims.ViewModel
                 }
             }
         }
-        ObservableCollection<NewsItem> feedList = null;
-        ObservableCollection<NewsItem> feedListGazeta = null;
-        ObservableCollection<NewsItem> feedListAdvert = null;
+
+        private ObservableCollection<NewsItem> _feedList;
+		private ObservableCollection<NewsItem> _feedListGazeta;
+		private ObservableCollection<NewsItem> _feedListAdvert;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public RSSFeedViewModel(INavigation navigation)
         {
-            GetNewsFeedAsync();
-            GetGazetaFeedAsync();
-            GetAdvertFeedAsync();
-            Navigation = navigation;
+			Navigation = navigation;
+		}
+
+		public async void SetNewsFeedAsync(NetworkManager manager)
+        {
+			FeedList = new ObservableCollection<NewsItem>(await manager.GetSyncFeedAsync());
         }
 
-        public async void GetNewsFeedAsync()
+        public async void SetGazetaFeedAsync(NetworkManagerGazeta manager)
         {
-            NetworkManager manager = NetworkManager.Instance;
-            List<NewsItem> list = await manager.GetSyncFeedAsync();
-            FeedList = new ObservableCollection<NewsItem>(list);
+            FeedListGazeta = new ObservableCollection<NewsItem>(await manager.GetSyncFeedAsync());
         }
-        public async void GetGazetaFeedAsync()
+
+        public async void SetAdvertFeedAsync(NetworkManagerAdvert manager)
         {
-            NetworkManagerGazeta manager = NetworkManagerGazeta.Instance;
-            List<NewsItem> gazetalist = await manager.GetSyncFeedAsync();
-            FeedListGazeta = new ObservableCollection<NewsItem>(gazetalist);
-        }
-        public async void GetAdvertFeedAsync()
-        {
-            NetworkManagerAdvert manager = NetworkManagerAdvert.Instance;
-            List<NewsItem> advertlist = await manager.GetSyncFeedAsync();
-            FeedListAdvert = new ObservableCollection<NewsItem>(advertlist);
+            FeedListAdvert = new ObservableCollection<NewsItem>(await manager.GetSyncFeedAsync());
         }
 
         protected void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
         private void OpenWebPage()
         {
             Navigation.PushAsync(new NewsPage(selectedItem.Title, selectedItem.Content, selectedItem.Image));
         }
+
         private void OpenWebPageGazeta()
         {
             Navigation.PushAsync(new NewsPage(selectedItemGazeta.Title, selectedItemGazeta.Content, selectedItemGazeta.Image));
         }
+
         private void OpenWebPageAdvert()
         {
             Navigation.PushAsync(new NewsPage(selectedItemAdvert.Title, selectedItemAdvert.Content, selectedItemAdvert.Image));

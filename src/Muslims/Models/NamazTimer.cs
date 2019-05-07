@@ -6,7 +6,7 @@ using Plugin.LocalNotifications;
 
 namespace Muslims.Models
 {
-	internal static class NamazTimer
+	public static class NamazTimer
 	{
 		public static async void StartTimer()
 		{
@@ -22,7 +22,18 @@ namespace Muslims.Models
 		}
 
 		#region Public
-		public static void CheckNamazTime(object obj)
+		private static void CheckNamazTime(object obj)
+		{
+			if (obj is NamazTimesRow namazTime)
+			{
+				if (CheckTime(namazTime))
+				{
+					CrossLocalNotifications.Current.Show("Намаз!", "До Намаза осталось 30 минут!");
+				}
+			}
+		}
+
+		public static bool CheckTime(NamazTimesRow namazTime)
 		{
 			var hours = DateTime.Now.Hour;
 			var minutes = DateTime.Now.Minute;
@@ -38,18 +49,12 @@ namespace Muslims.Models
 
 			var time = hours + ":" + minutes.ToString("D2");
 
-			if (obj is NamazTimesRow namazTime)
-			{
-				if (time == namazTime.FirstNamaz ||
-					time == namazTime.SecondNamaz ||
-					time == namazTime.ThirdNamaz ||
-					time == namazTime.FourthNamaz ||
-					time == namazTime.FifthNamaz ||
-					time == namazTime.SixthNamaz)
-				{
-					CrossLocalNotifications.Current.Show("Намаз!", "До Намаза осталось 30 минут!");
-				}
-			}
+			return time == namazTime.FirstNamaz ||
+				   time == namazTime.SecondNamaz ||
+				   time == namazTime.ThirdNamaz ||
+				   time == namazTime.FourthNamaz ||
+				   time == namazTime.FifthNamaz ||
+				   time == namazTime.SixthNamaz;
 		}
 		#endregion
 	}

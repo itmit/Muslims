@@ -34,10 +34,10 @@ namespace Muslims.Network
                 Uri uri = new Uri(network_url);
                 HttpClient client = new HttpClient();
                 HttpResponseMessage response = await client.GetAsync(uri);
-                String response_string = await response.Content.ReadAsStringAsync();
+                String responseString = await response.Content.ReadAsStringAsync();
                 NewsParser parser = new NewsParser();
-                // List<FeedItem> list = await Task.Run(() => parser.ParseFeed(response_string));
-                List<NewsItem> list = await Task.Run(() => parser.ParseFeed(response_string));
+
+                List<NewsItem> list = await Task.Run(() => parser.ParseFeed(responseString));
                 return list;
             }
             return null;

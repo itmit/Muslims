@@ -51,8 +51,7 @@ namespace Muslims
         }
         public void ListMenu_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            var menu = e.SelectedItem as Menu;
-            if (menu != null)
+			if (e.SelectedItem is Menu menu)
             {
                 if (menu.MenuID.Equals("1"))
                 {
@@ -66,10 +65,10 @@ namespace Muslims
                 }
                 else if (menu.MenuID.Equals("3"))
                 {
-                    if (IsConnected() == true)
+                    if (IsConnected())
                     {
-                        Detail = new NavigationPage(new News());
-                        IsPresented = false;
+						Detail = new NavigationPage(new News());
+						IsPresented = false;
                     }
                     else
                     {
@@ -78,22 +77,21 @@ namespace Muslims
                 }
                 else if (menu.MenuID.Equals("4"))
                 {
-                    Intent QuranMajeed;
-                    PackageManager packageManager = Android.App.Application.Context.PackageManager;
-                    QuranMajeed = packageManager.GetLaunchIntentForPackage("com.pakdata.QuranMajeed");
-                    if (QuranMajeed == null )
+					PackageManager packageManager = Android.App.Application.Context.PackageManager;
+                    var quranMajeed = packageManager.GetLaunchIntentForPackage("com.pakdata.QuranMajeed");
+                    if (quranMajeed == null )
                     {
-                        if (IsConnected() == true)
+                        if (IsConnected())
                         {
-                            QuranMajeed = new Intent(Intent.ActionView, Android.Net.Uri.Parse("http://play.google.com/store/apps/details?id=com.pakdata.QuranMajeed"));
+                            quranMajeed = new Intent(Intent.ActionView, Android.Net.Uri.Parse("http://play.google.com/store/apps/details?id=com.pakdata.QuranMajeed"));
                         }
                         else
                         {
                             DisplayAlert("Ошибка", "Отсутствует подключение к сети!", "Ок");
                         }
                     }
-                    QuranMajeed.AddFlags(ActivityFlags.NewTask);
-                    Android.App.Application.Context.StartActivity(QuranMajeed);
+                    quranMajeed.AddFlags(ActivityFlags.NewTask);
+                    Android.App.Application.Context.StartActivity(quranMajeed);
                 }
                 else if (menu.MenuID.Equals("5"))
                 {

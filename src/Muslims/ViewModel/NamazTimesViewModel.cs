@@ -17,7 +17,7 @@ namespace Muslims.ViewModel
 
 		#region Data
 		#region Fields
-		private ObservableCollection<NamazTimesRow> _namazTimes;
+		//private ObservableCollection<NamazTimesRow> _namazTimes;
 		private string _date;
 		private string _firstNamaz;
 		private string _secondNamaz;

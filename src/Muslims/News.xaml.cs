@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Muslims.Models;
+using Muslims.Network;
 using Muslims.ViewModel;
 using Xamarin.Forms;
 
@@ -7,17 +9,17 @@ namespace Muslims
 {
     public partial class News : TabbedPage
     {
-        RSSFeedViewModel RSSFeedViewModelObject;
-
-        public News()
+		public News()
         {
-            InitializeComponent();
+			InitializeComponent();
 
-            RSSFeedViewModelObject = new RSSFeedViewModel(Navigation);
+			var rssFeedViewModelObject = new RSSFeedViewModel(Navigation);
+			rssFeedViewModelObject.SetNewsFeedAsync(NetworkManager.Instance);
+			rssFeedViewModelObject.SetGazetaFeedAsync(NetworkManagerGazeta.Instance);
+			rssFeedViewModelObject.SetAdvertFeedAsync(NetworkManagerAdvert.Instance);
 
-            BindingContext = RSSFeedViewModelObject;
-
-        }
+			BindingContext = rssFeedViewModelObject;
+		}
 
     }
 }

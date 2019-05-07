@@ -1,6 +1,6 @@
 ﻿namespace Muslims.Models
 {
-	internal class NamazTimesRow
+	public class NamazTimesRow
 	{
 		#region Properties
 		/// <summary>
