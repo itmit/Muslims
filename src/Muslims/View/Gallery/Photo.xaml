@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Photo"
+             Title="ФОТО">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="15,0,0,10" />
+            <Setter Property="Padding" Value="0,-10,0,20" />
+            <Setter Property="HeightRequest" Value="200" />
+            <Setter Property="ContentLayout" Value="Top,20" />
+            <Setter Property="VerticalOptions" Value="End" />
+            <Setter Property="FontSize" Value="11" />
+            <Setter Property="BackgroundColor" Value="#869a8e" />
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+            <Setter Property="VerticalOptions" Value="EndAndExpand" />
+            <Setter Property="TextColor" Value="#ffffff" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="220" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170" />
+                    <ColumnDefinition Width="170" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Санкт-Петербургская Соборная мечеть" Grid.Row="0" Grid.Column="0" Image="spb_ico_1.png"
+                        Clicked="Button_Click1" />
+                <Button Text="Вторая Санкт-Петербургская мечеть" Grid.Row="0" Grid.Column="1" Image="spb_ico_2.png"
+                        Clicked="Button_Click2" />
+                <Button Text="Празднование Курбан-байрам 2008" Grid.Row="1" Grid.Column="0" Image="spb_ico_3.png"
+                        Clicked="Button_Click3" />
+                <Button Text="2010 год" Grid.Row="1" Grid.Column="1" Image="spb_ico_4.png" Clicked="Button_Click4" />
+                <Button Text="2011 год" Grid.Row="2" Grid.Column="0" Image="spb_ico_5.png" Clicked="Button_Click5" />
+                <Button Text="2012 год" Grid.Row="2" Grid.Column="1" Image="spb_ico_6.png" Clicked="Button_Click6" />
+                <Button Text="2013 год" Grid.Row="3" Grid.Column="0" Image="spb_ico_7.png" Clicked="Button_Click7" />
+                <Button Text="2014 год" Grid.Row="3" Grid.Column="1" Image="spb_ico_8.png" Clicked="Button_Click8" />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

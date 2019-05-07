@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.About"
+             Title="О НАС">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="picture.jpg" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+            <Label
+                Text="И нет сомнений, что акционеры крупнейших компаний освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, указаны как претенденты на роль ключевых факторов. Приятно, граждане, наблюдать, как акционеры крупнейших компаний смешаны с неуникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Кстати, сделанные на базе интернет-аналитики выводы лишь добавляют фракционных разногласий и объективно рассмотрены соответствующими инстанциями. Как принято считать, тщательные исследования конкурентов неоднозначны и будут призваны к ответу."
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand" Margin="15,0,0,0" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

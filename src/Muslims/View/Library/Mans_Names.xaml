@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Mans_Names"
+             BackgroundColor="#67c4e5"
+             Title="Мужские мусульманские имена">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <RelativeLayout>
+            <Image Source="bg_biblioteka_blue.jpg"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}" />
+            <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+                  Margin="0,80,0,0">
+                <ScrollView>
+                    <StackLayout Margin="5,0,0,0">
+                        <Label Font="Bold,20" TextColor="Red" Text="Aaмир	                   " />
+                        <Label Text="Процветающий                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aaсим	                   " />
+                        <Label Text="Защитник                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aариф	                   " />
+                        <Label Text="Хорошо осведомленный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aбу Бакр	               " />
+                        <Label Text="Имя Сподвижника Пророка Мухаммада, Мир ему.                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Aбульхайр	               " />
+                        <Label Text="Творящий. Совершающий доброе                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абан	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аббас	                   " />
+                        <Label Text="Хмурый, строгий, суровый                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абд	                       " />
+                        <Label Text="Раб (поклоняющийся Богу)                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдулла	                   " />
+                        <Label Text="Раб Бога                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульазиз	               " />
+                        <Label Text="Раб Могучего, Обладателя особого величия                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульазым	               " />
+                        <Label Text="Раб Величайшего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульали	               " />
+                        <Label Text="Раб Высочайшего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульалим	               " />
+                        <Label Text="Раб Всезнающего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульбари	               " />
+                        <Label Text="Раб Создателя                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульбасыт	               " />
+                        <Label Text="Раб Расстилающего, Доставляющего людям жизнь                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульвадуд	               " />
+                        <Label Text="Раб Любящего                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульвахаб	               " />
+                        <Label Text="Раб Дарующего                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульвахид	               " />
+                        <Label Text="Раб Единственного                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульгафар	               " />
+                        <Label Text="Раб Всепрощающего                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульгафур	               " />
+                        <Label Text="Раб Всепрощающего                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульджабар	           " />
+                        <Label Text="Раб Могущественного                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульджалиль	           " />
+                        <Label Text="Раб Величественного                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдулькадир	               " />
+                        <Label Text="Раб Всемогущего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдулькарим	               " />
+                        <Label Text="Раб Щедрого                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдулькахар	               " />
+                        <Label Text="Раб Господствующего                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдулькудус	               " />
+                        <Label Text="Раб Священного, Чистейшего от всех недостатков              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульлатыф	               " />
+                        <Label Text="Раб Доброго, Милостивого, Милующего                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульмаджид	           " />
+                        <Label Text="Раб Преславного                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульматин	               " />
+                        <Label Text="Раб Сильного, Прочного                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульмуджиб	           " />
+                        <Label Text="Раб Отвечающего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульмуиз	               " />
+                        <Label Text="Раб Дающего мощь, силу                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульмуталь	           " />
+                        <Label Text="Раб Высочайшего                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульмухаймин	           " />
+                        <Label Text="Раб Охраняющего Свои творения                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульфатах	               " />
+                        <Label Text="Слуга Открывающего                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхади	               " />
+                        <Label Text="Раб Ведущего верным путем                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхакам	               " />
+                        <Label Text="Раб Судьи                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхаким	               " />
+                        <Label Text="Раб Самого Мудрого                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхакк	               " />
+                        <Label Text="Раб Истинного, Устанавливающего истинность                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхалик	               " />
+                        <Label Text="Раб Творца                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхалим	               " />
+                        <Label Text="Раб Ласкового, Мягкого                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхамид	               " />
+                        <Label Text="Раб Достойного всех похвал                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхасиб	               " />
+                        <Label Text="Раб Учитывающего все, Достаточного своим рабам              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдульхафиз	               " />
+                        <Label Text="Раб Унижающего (тех, кто не подчиняется Его Закону)         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуннасер	               " />
+                        <Label Text="Раб Дарующего помощь, победу                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдурразак	               " />
+                        <Label Text="Раб Создающего блага                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуррауф	               " />
+                        <Label Text="Раб Снисходительного, Нежного, Милостивого                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуррафи	               " />
+                        <Label Text="Раб Возвышающего уверовавших                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуррахим	               " />
+                        <Label Text="Раб Всемилосердного                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуррахман	               " />
+                        <Label Text="Раб Всемилостивого                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуррашид	               " />
+                        <Label Text="Раб Направляющего на правильный путь                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуссабур	               " />
+                        <Label Text="Раб Терпеливого                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуссалям	               " />
+                        <Label Text="Раб Миротворящего                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуссамад	               " />
+                        <Label Text="Раб Вечного                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдуссами	               " />
+                        <Label Text="Слуга Всеслышащего                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдутавваб	               " />
+                        <Label Text="Раб Принимающего покаяния                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абдущщакур	               " />
+                        <Label Text="Раб Благодарного, Воздающего награду своим рабам            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абид	                   " />
+                        <Label Text="Молящийся                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абидин	                   " />
+                        <Label Text="Рабы (поклоняющиеся Богу)                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Абрек	                   " />
+                        <Label Text="Самый благодатный                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Агиль	                   " />
+                        <Label Text="Умный, понимающий, знающий                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Адель	                   " />
+                        <Label Text="Праведник                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Адиль (Адыль)	           " />
+                        <Label Text="Справедливый                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аднан	                   " />
+                        <Label Text="Имя собственное                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Азад (Азат)	               " />
+                        <Label Text="Свободный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Азер	                   " />
+                        <Label Text="Огонь, пламя                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айдын	                   " />
+                        <Label Text="Светлый, яркий                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Айрат	                   " />
+                        <Label Text="Дорогой, любимый                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Акбар	                   " />
+                        <Label Text="Великий                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Акшин	                   " />
+                        <Label Text="Сильный, смелый                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Али	                       " />
+                        <Label Text="Высокий, возвышенный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Алим	                   " />
+                        <Label Text="Ученый, знающий, осведомленный                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Алпан	                   " />
+                        <Label Text="Храбрец                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Алхан	                   " />
+                        <Label Text="Великий хан                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Альаббас	               " />
+                        <Label Text="Суровый                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амаль	                   " />
+                        <Label Text="Надежда, ожидание                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амин	                   " />
+                        <Label Text="Верный, надежный, честный                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амир	                   " />
+                        <Label Text="Правитель, князь, принц                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Амирхан (Эмирхан)	       " />
+                        <Label Text="Главный руководитель                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Анвер (Анвар, Анвяр, Энвер)" />
+                        <Label Text="Самый светлый, самый яркий                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Анзор	                   " />
+                        <Label Text="Самый заботливый                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ансар	                   " />
+                        <Label Text="Помощники, сторонники, попутчики                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аран	                   " />
+                        <Label Text="Выдержанный, хладнокровный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ареф	                   " />
+                        <Label Text="Умный, мудрый                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Арман	                   " />
+                        <Label Text="Совершенный; надежда                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Арсен	                   " />
+                        <Label Text="Смелый, бесстрашный                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Арслан (Арсан, Асад)	   " />
+                        <Label Text="Лев                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Артур	                   " />
+                        <Label Text="Крепкий, человек крупного телосложения                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Асим	                   " />
+                        <Label Text="Защищающий                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аслан	                   " />
+                        <Label Text="Бесстрашный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Асхаб	                   " />
+                        <Label Text="Самый дружелюбный                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ауранг (Аурангзеб)	       " />
+                        <Label Text="Мудрость, понимание                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ахмад	                   " />
+                        <Label Text="Хвалимый, достойный похвалы                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Аяз	                       " />
+                        <Label Text="Разумный, сообразительный, смекалистый, смышленый           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Баасым	                   " />
+                        <Label Text="Улыбающийся                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Багда	                   " />
+                        <Label Text="Подарок Всевышнего, дар                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бадруддин	               " />
+                        <Label Text="Полная луна веры                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Баллы	                   " />
+                        <Label Text="Медовый                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бамдад	                   " />
+                        <Label Text="Раннее утро                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Басам	                   " />
+                        <Label Text="Улыбающийся                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Басыль	                   " />
+                        <Label Text="Храбрый                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Баха	                   " />
+                        <Label Text="Прекрасный, красивый                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бахауддин	               " />
+                        <Label Text="Прекрасный, красивый в вере                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бахир	                   " />
+                        <Label Text="Ослепляющий, блестящий                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Башаар	                   " />
+                        <Label Text="Сообщающий благие вести                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бегенч	                   " />
+                        <Label Text="Радость                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бексолтан (Бексолт)	       " />
+                        <Label Text="Главный султан                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бекхан	                   " />
+                        <Label Text="Главный князь, глава                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бехнам	                   " />
+                        <Label Text="Имеющий хорошую репутацию (доброе имя)                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бехроз	                   " />
+                        <Label Text="Счастливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Билаль	                   " />
+                        <Label Text="Имя первого муэдзина (созывающего на молитву)               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бишр	                   " />
+                        <Label Text="Радость                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Борна	                   " />
+                        <Label Text="Юный                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бугдай	                   " />
+                        <Label Text="Руководитель, лидер                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Бурхан	                   " />
+                        <Label Text="Доказательство                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ваджих	                   " />
+                        <Label Text="Благородный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вади	                   " />
+                        <Label Text="Cпокойный, миролюбивый                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вазир (Визирь)	           " />
+                        <Label Text="Министр                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ваиль	                   " />
+                        <Label Text="Возвращающийся (чтобы укрыться)                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вакиль	                   " />
+                        <Label Text="Защитник, покровитель                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Валид	                   " />
+                        <Label Text="Новорожденный                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Валиуддин	               " />
+                        <Label Text="Покровитель религии                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Валиулла	               " />
+                        <Label Text="Близкий к Богу человек (набожный, богобоязненный)           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Васим	                   " />
+                        <Label Text="Изящный                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вафик	                   " />
+                        <Label Text="Преуспевающий                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вахид	                   " />
+                        <Label Text="Единственный, исключительный                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Вели	                   " />
+                        <Label Text="Близкий, родной                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Видади	                   " />
+                        <Label Text="Любовь, дружба                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гази	                   " />
+                        <Label Text="Воин                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Галиб	                   " />
+                        <Label Text="Победитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гаплан	                   " />
+                        <Label Text="Храбрец                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гасан	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гачай	                   " />
+                        <Label Text="Храбрец, воин                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гашкай	                   " />
+                        <Label Text="Счастливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гая	                       " />
+                        <Label Text="Прочный, нерушимый                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гияс	                   " />
+                        <Label Text="Обильный, плодотворный                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Горгуд	                   " />
+                        <Label Text="Огонь, свет                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гошгар	                   " />
+                        <Label Text="Величественный                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Гуйч	                   " />
+                        <Label Text="Сила                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дамир	                   " />
+                        <Label Text="Совесть, ум                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дангатар (Гюндогды)	       " />
+                        <Label Text="Рассвет                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Даниэль (Даниял)	       " />
+                        <Label Text="Божественный дар                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Данияр	                   " />
+                        <Label Text="Лбладатель знаний, ученый, умный                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дауд (Давуд)	           " />
+                        <Label Text="Любимый, дорогой                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дашгын	                   " />
+                        <Label Text="Сильный, кипучий                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дестегюль	               " />
+                        <Label Text="Букет цветов                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джабир	                   " />
+                        <Label Text="Утешитель                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джавад	                   " />
+                        <Label Text="Великодушный                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джавид	                   " />
+                        <Label Text="Долгоживущий                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джалаль	                   " />
+                        <Label Text="Слава веры                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джамаль	                   " />
+                        <Label Text="Красота                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джамальуддин	           " />
+                        <Label Text="Красота веры                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джамиль	                   " />
+                        <Label Text="Красивый, прекрасный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джамиль (Джамаль)	       " />
+                        <Label Text="Красивый                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джафар	                   " />
+                        <Label Text="Источник                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Дженг	                   " />
+                        <Label Text="Бой, сражение                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Джихад	                   " />
+                        <Label Text="Вести джихад, бороться за веру                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Довлет (Довлетмырат)	   " />
+                        <Label Text="Богатство, достояние                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ерфан (Ирфан)	           " />
+                        <Label Text="Знание, познание                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Забит	                   " />
+                        <Label Text="Приказывающий                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зайд	                   " />
+                        <Label Text="Изобилие                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Закарийя	               " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Заки	                   " />
+                        <Label Text="Чистый                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зафир	                   " />
+                        <Label Text="Побеждающий                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Захид	                   " />
+                        <Label Text="Воздержанный                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зия	                       " />
+                        <Label Text="Свет                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зияд	                   " />
+                        <Label Text="Изобилие                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зульфикар	               " />
+                        <Label Text="Название меча, Пророка, мир ему                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Зухайр	                   " />
+                        <Label Text="Яркий. светлый                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ибрахим	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Идрис	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Иззуддин	               " />
+                        <Label Text="Величие веры                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Икрима	                   " />
+                        <Label Text="Голубь                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Илкин	                   " />
+                        <Label Text="Первый                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Илмаз (Йылмаз)	           " />
+                        <Label Text="Смельчак                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ильдар (Эльдар)	           " />
+                        <Label Text="Руководитель, хозяин                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ильнур (Ильнар)	           " />
+                        <Label Text="Свет родины, отечества                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ильяс	                   " />
+                        <Label Text="Приходящий на помощь                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Имад	                   " />
+                        <Label Text="Опора, столп                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Имадуддин	               " />
+                        <Label Text="Опора, столп веры                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Имран	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Инал	                   " />
+                        <Label Text="Повелитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ирфан	                   " />
+                        <Label Text="Благодарность                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Иса (Иисус)	               " />
+                        <Label Text="Помощь Бога                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Исам	                   " />
+                        <Label Text="Охраняющий, защищающий                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Искандер (Эскандер)	       " />
+                        <Label Text="Побеждающий                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ислам	                   " />
+                        <Label Text="Покорность Всевышнему                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Исмаил	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Исматулла	               " />
+                        <Label Text="Находящийся под защитой Аллаха                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Исхак	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ихсан	                   " />
+                        <Label Text="Искренность, доброта, великодушие                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кайс	                   " />
+                        <Label Text="Твердый                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Камиль	                   " />
+                        <Label Text="Совершенный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Камран (Камбиз, Камьяр)	   " />
+                        <Label Text="Счастливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Камшад	                   " />
+                        <Label Text="Счастливая мечта                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Карим	                   " />
+                        <Label Text="Щедрый, благородный                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Касым	                   " />
+                        <Label Text="Твердый, жесткий                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Катада	                   " />
+                        <Label Text="Крепкое дерево                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Киа	                       " />
+                        <Label Text="Царь, защитник                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кирман	                   " />
+                        <Label Text="Крепкий                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Комек	                   " />
+                        <Label Text="Помощник                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кудама	                   " />
+                        <Label Text="Отвага, смелость                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кутайба	                   " />
+                        <Label Text="Нетерпеливый, раздраженный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Кямиль (Кямал)	           " />
+                        <Label Text="Полноценный, совершенный                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лабиб	                   " />
+                        <Label Text="Чувствительный, осторожный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лачин	                   " />
+                        <Label Text="Рыцарь                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лукман	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Люаи	                   " />
+                        <Label Text="Имя собственное                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Лютфи	                   " />
+                        <Label Text="Добрый, дружелюбный                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ма'н	                   " />
+                        <Label Text="Польза, выгода                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Маджид	                   " />
+                        <Label Text="Великий, благородный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Максуд	                   " />
+                        <Label Text="Желанный                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Манаф	                   " />
+                        <Label Text="Высоко стоящий                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мансур	                   " />
+                        <Label Text="Победоносный                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мардан	                   " />
+                        <Label Text="Воин                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Махди	                   " />
+                        <Label Text="Направленный на правильный путь                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мири	                   " />
+                        <Label Text="Глава, руководитель                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мохсен	                   " />
+                        <Label Text="Творящий добро                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мурад	                   " />
+                        <Label Text="Желание, цель, мечта                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Муса	                   " />
+                        <Label Text="Творящий чудеса                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Муслим	                   " />
+                        <Label Text="Мусульманин                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мустафа (Муджтаба, Муртаза)" />
+                        <Label Text="Избранный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мухаммад (Мухаммед)	       " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Мюрид	                   " />
+                        <Label Text="Последователь, ученик                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maжд	                   " />
+                        <Label Text="Слава                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maкин	                   " />
+                        <Label Text="Сильный, крепкий, стойкий                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maмдух	                   " />
+                        <Label Text="Прославляемый                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maмнун	                   " />
+                        <Label Text="Заслуживающий доверия                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maрзук	                   " />
+                        <Label Text="Благословенный Богом                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maсуд	                   " />
+                        <Label Text="Счастливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Maхмуд	                   " />
+                        <Label Text="Достойный похвалы                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуаз	                   " />
+                        <Label Text="Защищенный                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуайид	                   " />
+                        <Label Text="Поддерживаемый                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mувафак	                   " />
+                        <Label Text="Преуспевающий                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mунзир	                   " />
+                        <Label Text="Предвестник                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mунир	                   " />
+                        <Label Text="Блестящий, яркий, светящийся                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mунтасир                   " />
+                        <Label Text="Победоносный                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуртади	                   " />
+                        <Label Text="Довольный, удовлетворенный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mутаз	                   " />
+                        <Label Text="Гордый, сильный                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mути	                   " />
+                        <Label Text="Повинующийся                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуфид	                   " />
+                        <Label Text="Полезный                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mухаммад	               " />
+                        <Label Text="Хвалимый                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mуханнад	               " />
+                        <Label Text="Меч                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mухсин	                   " />
+                        <Label Text="Творящий благое, доброе                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mухтади	                   " />
+                        <Label Text="Праведный, идущий правильным путем                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Mухтар	                   " />
+                        <Label Text="Избранный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Oмейр	                   " />
+                        <Label Text="Долгожитель                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Oмран	                   " />
+                        <Label Text="Прочно сложенный                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taaмир	                   " />
+                        <Label Text="Знающий даты                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taймулла	               " />
+                        <Label Text="Слуга Господа                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taйсир	                   " />
+                        <Label Text="Облегчение, помощь                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taмам	                   " />
+                        <Label Text="Полный, совершенный                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taрик	                   " />
+                        <Label Text="Утренняя звезда                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taриф	                   " />
+                        <Label Text="Редкий, необычный Тархан – повелитель                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taрфах	                   " />
+                        <Label Text="Вид дерева                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Taуфик	                   " />
+                        <Label Text="Удача, согласие, примирение                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Tальха	                   " />
+                        <Label Text="Вид дерева                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Орхан	                   " />
+                        <Label Text="Хан войска, полководец                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Пайам	                   " />
+                        <Label Text="Добрая весть                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Паша	                   " />
+                        <Label Text="Хозяин                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Пейман	                   " />
+                        <Label Text="Обещание                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Полад	                   " />
+                        <Label Text="Сильный, мощный                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Пуджман	                   " />
+                        <Label Text="Мечта, желание                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Пуйа	                   " />
+                        <Label Text="Искатель                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рабах	                   " />
+                        <Label Text="Побеждающий                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Раби	                   " />
+                        <Label Text="Весна                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Равиль	                   " />
+                        <Label Text="Подросток; путешественник                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рагиб	                   " />
+                        <Label Text="Желающий, жаждущий                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Раджаб	                   " />
+                        <Label Text="Седьмой месяц мусульманского лунного календаря              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рази	                   " />
+                        <Label Text="Тайна                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Раид	                   " />
+                        <Label Text="Лидер                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ракин	                   " />
+                        <Label Text="Почтительный                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рамиз	                   " />
+                        <Label Text="Символизирующий благое                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рамиль	                   " />
+                        <Label Text="Волшебный, чародейственный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Расул	                   " />
+                        <Label Text="Апостол; предвестник                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ратиб	                   " />
+                        <Label Text="Размеренный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рафи	                   " />
+                        <Label Text="Добрый друг                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рашад	                   " />
+                        <Label Text="Благоразумный                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рашид	                   " />
+                        <Label Text="Благоразумный, ведомый по прямому пути                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рвмиз	                   " />
+                        <Label Text="Символ                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Реза	                   " />
+                        <Label Text="Решимость; смирение                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рида (Риза)	               " />
+                        <Label Text="Благожелательность, благосклонность                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ридван	                   " />
+                        <Label Text="Довольствующийся, желающий, имя Ангела, охраняющего Рай     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ринат	                   " />
+                        <Label Text="Обновленный, заново рожденный                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рифат	                   " />
+                        <Label Text="Высокое положение, знатность                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рияд	                   " />
+                        <Label Text="Сады                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рузиль (Рузбех)	           " />
+                        <Label Text="Счастливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Руслан	                   " />
+                        <Label Text="Лев                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Рустам	                   " />
+                        <Label Text="Очень большой, с мощным телом                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Саад	                   " />
+                        <Label Text="Удача                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сабир	                   " />
+                        <Label Text="Терпеливый                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сабит	                   " />
+                        <Label Text="Крепкий, прочный, твердый                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сабих	                   " />
+                        <Label Text="Красивый, прекрасный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Савалан	                   " />
+                        <Label Text="Величественный                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Саджид	                   " />
+                        <Label Text="Совершающий суджуд, преклоняющийся перед Богом.             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Садык (Садых, Садик)	   " />
+                        <Label Text="Искренний, верный                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Саид	                   " />
+                        <Label Text="Счастливый, источник                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сайид	                   " />
+                        <Label Text="Господин                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сайфуддин	               " />
+                        <Label Text="Меч веры                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сакиб	                   " />
+                        <Label Text="Метеор, комета, летящая эзвезда                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сакит	                   " />
+                        <Label Text="Мирный, умеренный                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салар	                   " />
+                        <Label Text="Лидер                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салах	                   " />
+                        <Label Text="Справедливость                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салахуддин	               " />
+                        <Label Text="Справедливость веры                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салем	                   " />
+                        <Label Text="Мирный, тихий, миролюбивый                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салим	                   " />
+                        <Label Text="Миролюбивый, тихий. спокойный                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салих	                   " />
+                        <Label Text="Праведный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салман	                   " />
+                        <Label Text="Мирный, миролюбивый                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Салман (Салем, Салим)	   " />
+                        <Label Text="Миролюбивый, тихий, спокойный                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сами	                   " />
+                        <Label Text="Возвышенный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самиир	                   " />
+                        <Label Text="Собеседник, поддерживающий беседу, разговор                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Самир	                   " />
+                        <Label Text="Собеседник, рассказчик                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Санджар	                   " />
+                        <Label Text="Принц                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сани	                   " />
+                        <Label Text="Восхваляющий, сияющий                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сардар (Сардор)	           " />
+                        <Label Text="Главнокомандующий, руководитель                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сарийя	                   " />
+                        <Label Text="Ночные облака                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сархан	                   " />
+                        <Label Text="Большой хан                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сафван	                   " />
+                        <Label Text="Старинное арабское имя (камни)                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сафи	                   " />
+                        <Label Text="Наилучший друг                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сахидям (Сахи)	           " />
+                        <Label Text="Ясный, чистый, безоблачный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сахир	                   " />
+                        <Label Text="Бдительный, бодрствующий                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сепехр	                   " />
+                        <Label Text="Небо                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сирадж	                   " />
+                        <Label Text="Свет                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сохель	                   " />
+                        <Label Text="Звезда                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Соялп	                   " />
+                        <Label Text="Из рода храбрецов                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Субхи	                   " />
+                        <Label Text="Раннее утро                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Суляйман	               " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сууд	                   " />
+                        <Label Text="Удача                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сухайб	                   " />
+                        <Label Text="Дружеский                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Сухайль	                   " />
+                        <Label Text="Название звезды                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Таахир	                   " />
+                        <Label Text="Скромный                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Таир	                   " />
+                        <Label Text="Летящий, парящий                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Такый (Таги)	           " />
+                        <Label Text="Благочестивый, набожный                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Талаль	                   " />
+                        <Label Text="Красивый, прекрасный                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Талгат	                   " />
+                        <Label Text="Красота, привлекательность                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тахир	                   " />
+                        <Label Text="Чистый, целомудренный                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тимерлан (Тамерлан, Тимер) " />
+                        <Label Text="Железный, стойкий                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тимур (Теймур, Темир)	   " />
+                        <Label Text="Крепкий                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Токай	                   " />
+                        <Label Text="Воин                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Тофик (Тауфик, Тавфик)	   " />
+                        <Label Text="Успех, удача, счастье                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Туган	                   " />
+                        <Label Text="Сокол                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Туран	                   " />
+                        <Label Text="Родина                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Туркел	                   " />
+                        <Label Text="Тюркская земля, тюркский народ                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Убайда	                   " />
+                        <Label Text="Слуга Господа                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Улус	                   " />
+                        <Label Text="Народ, земля                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Умар (Гумар)	           " />
+                        <Label Text="Жизненный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уруз	                   " />
+                        <Label Text="Высший титул                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Урфан	                   " />
+                        <Label Text="Знание, искусство                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Усама	                   " />
+                        <Label Text="Лев                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Уссама	                   " />
+                        <Label Text="Одно из имен льва                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Утба	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фавуаз	                   " />
+                        <Label Text="Преуспевающий                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фади	                   " />
+                        <Label Text="Избавитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фадль	                   " />
+                        <Label Text="Почтенный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фадлюллах	               " />
+                        <Label Text="Почтение Бога                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаик	                   " />
+                        <Label Text="Превосходный, удивительный                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фаиль	                   " />
+                        <Label Text="Дающий хороший знак, являющийся доброй приметой             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Файсал	                   " />
+                        <Label Text="Решительный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фараз	                   " />
+                        <Label Text="Возвышенный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарбод	                   " />
+                        <Label Text="Прямой, бескомпромиссный                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарзан	                   " />
+                        <Label Text="Мудрый                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарид	                   " />
+                        <Label Text="Редкий                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарис	                   " />
+                        <Label Text="Всадник, сильный                                            " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фарук	                   " />
+                        <Label Text="Отличающий правду от лжи                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатех	                   " />
+                        <Label Text="Победитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фатин	                   " />
+                        <Label Text="Умный                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фахад	                   " />
+                        <Label Text="Рысь                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фахир	                   " />
+                        <Label Text="Гордый                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фахри	                   " />
+                        <Label Text="Почетный, уважаемый                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фида	                   " />
+                        <Label Text="Жертвующий                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фирдаус	                   " />
+                        <Label Text="Рай, райская обитель                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фироз (Фируз)	           " />
+                        <Label Text="Победитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Форухар	                   " />
+                        <Label Text="Аромат                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фуад	                   " />
+                        <Label Text="Сердце                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Фудейль (Фадль)	           " />
+                        <Label Text="Достоинство, честь                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хаашим	                   " />
+                        <Label Text="Великодушие                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хабиб	                   " />
+                        <Label Text="Любимый, любимец, друг                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хагани	                   " />
+                        <Label Text="Повелитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хади	                   " />
+                        <Label Text="Направляющий прямым путем                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хади (Хедайат)	           " />
+                        <Label Text="Лидер                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайрат	                   " />
+                        <Label Text="Удивительный, любимый                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайри	                   " />
+                        <Label Text="Творящий благое                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайруддин	               " />
+                        <Label Text="Благо, добро веры                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайсам	                   " />
+                        <Label Text="Ястреб                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хайсамч	                   " />
+                        <Label Text="Благо, добро веры                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халдун	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халид	                   " />
+                        <Label Text="Вечный                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Халиль	                   " />
+                        <Label Text="Друг, возлюбленный                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хамза	                   " />
+                        <Label Text="Лев                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хамзат	                   " />
+                        <Label Text="Проворливый                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хами (Хафез)	           " />
+                        <Label Text="Защитник                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хамид	                   " />
+                        <Label Text="Восхваляющий Бога, любящий Бога                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ханджар	                   " />
+                        <Label Text="Кинжал                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хани	                   " />
+                        <Label Text="Счастливый, довольный, восхищенный                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Харис	                   " />
+                        <Label Text="Пахарь (старинное арабское имя)                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Харун	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хасан	                   " />
+                        <Label Text="Прекрасный, хороший                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хассан	                   " />
+                        <Label Text="Прекрасный                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хатим	                   " />
+                        <Label Text="Судья                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хатиф	                   " />
+                        <Label Text="Голос совести                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хашим	                   " />
+                        <Label Text="Имя деда Пророка Мухаммада, мир ему (старинное арабское имя)" />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хашим (Хаашм)	           " />
+                        <Label Text="Великодушие                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хикмет	                   " />
+                        <Label Text="Мудрость                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хирад	                   " />
+                        <Label Text="Здоровый                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хосров	                   " />
+                        <Label Text="Благотворитель                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Худ	Имя                    " />
+                        <Label Text="пророка                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хузайма	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хузайфа	                   " />
+                        <Label Text="Старинное арабское имя                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хумам	                   " />
+                        <Label Text="Отважный, благородный                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хусам	                   " />
+                        <Label Text="Меч                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хусамуддин	               " />
+                        <Label Text="Меч веры                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хуссейн	                   " />
+                        <Label Text="Прекрасный, добрый                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Хушманд (Хушьяр)           " />
+                        <Label Text="Мудрый                                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Чингиз	                   " />
+                        <Label Text="Великий, сильный, мощный, могучий                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шади	                   " />
+                        <Label Text="Поющий, певец                                               " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шайа (Шайан)	           " />
+                        <Label Text="Достойный                                                   " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шамиль	                   " />
+                        <Label Text="Всеохватывающий                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шариф	                   " />
+                        <Label Text="Благородный                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шафи	                   " />
+                        <Label Text="Целебный, целительный                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шафик	                   " />
+                        <Label Text="Сострадательный                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахбаз	                   " />
+                        <Label Text="Королевский сокол                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахбулат                   " />
+                        <Label Text="Очень хороший, самый первый                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахин	                   " />
+                        <Label Text="Сокол                                                       " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахлар	                   " />
+                        <Label Text="Сила многих повелителей                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахрияр	                   " />
+                        <Label Text="Царь                                                        " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шахьяр	                   " />
+                        <Label Text="Царский друг                                                " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шенер	                   " />
+                        <Label Text="Веселый храбрец                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шир	                       " />
+                        <Label Text="Лев                                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шихаб	                   " />
+                        <Label Text="Падающая звезда, метеор                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Шухрат	                   " />
+                        <Label Text="Слава, известность                                          " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эзиз (Азиз)	               " />
+                        <Label Text="Дорогой                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльдар	                   " />
+                        <Label Text="Повелитель                                                  " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльман	                   " />
+                        <Label Text="Человек народа                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльмир	                   " />
+                        <Label Text="Руководитель народа                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльчин	                   " />
+                        <Label Text="Храбрец                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эльшад (Эльхан)	           " />
+                        <Label Text="Повелитель народа                                           " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Эмир	                   " />
+                        <Label Text="Глава, руководитель                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Юнус	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Юсуф	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Явуз	                   " />
+                        <Label Text="Грозный                                                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Язид	                   " />
+                        <Label Text="Увеличивать                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ялчин	                   " />
+                        <Label Text="Величественный                                              " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яман	                   " />
+                        <Label Text="Имя собственное                                             " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Янар	                   " />
+                        <Label Text="Огненный                                                    " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ясар	                   " />
+                        <Label Text="Легкость, богатство                                         " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ясин	                   " />
+                        <Label Text="Одно из имен Пророка Мухаммада, мир ему                     " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Ясир (Ясар)	               " />
+                        <Label Text="Легкий, непринужденный                                      " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яхья	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яхья	                   " />
+                        <Label Text="Имя пророка                                                 " />
+                        <Label Font="Bold,20" TextColor="Red" Text="Яшар	                   " />
+                        <Label Text="Живущий                                                     " />
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="Muslims.View.CellViews.CellView">
+    <StackLayout Orientation="Vertical" Margin="15,5,15,0">
+        <Label Text="{Binding Title}" Font="Bold,15" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="{Binding Description}" FontSize="10" Grid.Row="0" Grid.Column="0" />
+            <Image Source="{Binding Image}" HeightRequest="60" Grid.Row="0" Grid.Column="1" />
+        </Grid>
+    </StackLayout>
+</ViewCell>

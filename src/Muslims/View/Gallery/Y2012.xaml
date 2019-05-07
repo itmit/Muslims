@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Muslims.Y2012"
+             Title="2012 год">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="15,0,0,10" />
+            <Setter Property="Padding" Value="0,-10,0,10" />
+            <Setter Property="HeightRequest" Value="200" />
+            <Setter Property="ContentLayout" Value="Top,20" />
+            <Setter Property="VerticalOptions" Value="End" />
+            <Setter Property="FontSize" Value="11" />
+            <Setter Property="BackgroundColor" Value="#869a8e" />
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+            <Setter Property="VerticalOptions" Value="EndAndExpand" />
+            <Setter Property="TextColor" Value="#ffffff" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="220" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170" />
+                    <ColumnDefinition Width="170" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Возложение венков на Пискаревском мемориальном кладбище" Grid.Row="0" Grid.Column="0"
+                        Image="spb_ico_2012_1.png" Clicked="Button_Click1" />
+                <Button Text="Митинг 18.02.2012" Grid.Row="0" Grid.Column="1" Image="spb_ico_2012_2.png"
+                        Clicked="Button_Click2" />
+                <Button Text="Сабантуй 2012" Grid.Row="1" Grid.Column="0" Image="spb_ico_2012_3.png"
+                        Clicked="Button_Click3" />
+                <Button Text="Таврический дворец. Выступления председателей Совета Федерации РФ и Госдумы РФ"
+                        Grid.Row="1" Grid.Column="1" Image="spb_ico_2012_4.png" Clicked="Button_Click4" />
+                <Button Text="На заседании общественного совета" Grid.Row="2" Grid.Column="0"
+                        Image="spb_ico_2012_5.png" Clicked="Button_Click5" />
+                <Button
+                    Text="Прощание с председателем Духовного управления мусульман Санкт-Петербурга и Северо-Западного региона России"
+                    Grid.Row="2" Grid.Column="1" Image="spb_ico_2012_6.png" Clicked="Button_Click6" />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

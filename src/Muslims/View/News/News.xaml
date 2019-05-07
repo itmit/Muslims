@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Muslims.News"
+            xmlns:local="clr-namespace:Muslims"
+            xmlns:Cell="clr-namespace:Muslims.CellViews;assembly=Muslims"
+            xmlns:cellViews="clr-namespace:Muslims.View.CellViews;assembly=Muslims"
+            BarBackgroundColor="#67c4e5"
+            Title="НОВОСТИ">
+    <ContentPage Title="Новости">
+        <StackLayout>
+            <ListView x:Name="FeedListNews" CachingStrategy="RecycleElement" SelectedItem="{Binding SelectedItem}"
+                      ItemsSource="{Binding FeedList}" HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <cellViews:CellView />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Газета">
+        <StackLayout>
+            <ListView x:Name="FeedListGazeta" CachingStrategy="RecycleElement"
+                      SelectedItem="{Binding SelectedItemGazeta}" ItemsSource="{Binding FeedListGazeta}"
+                      HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <cellViews:CellView />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Объявления">
+        <StackLayout>
+            <ListView x:Name="FeedListAdvert" CachingStrategy="RecycleElement"
+                      SelectedItem="{Binding SelectedItemAdvert}" ItemsSource="{Binding FeedListAdvert}"
+                      HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <cellViews:CellView />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
