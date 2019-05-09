@@ -1,4 +1,5 @@
 ﻿using System;
+using Muslims.View.Gallery;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,7 +18,7 @@ namespace Muslims
 		#region Public
 		public void Button_Click1(object sender, EventArgs e)
 		{
-			Navigation.PushAsync(new Conference_Gallery());
+			Navigation.PushAsync(new ConferenceGallery());
 		}
 
 		public void Button_Click2(object sender, EventArgs e)

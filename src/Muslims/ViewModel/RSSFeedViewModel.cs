@@ -4,12 +4,12 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using Muslims.Models;
-using Muslims.Network;
+using Muslims.Models.Network;
 using Xamarin.Forms;
 
 namespace Muslims.ViewModel
 {
-    public class RSSFeedViewModel : INotifyPropertyChanged
+    public class RssFeedViewModel : INotifyPropertyChanged
     {
         public ObservableCollection<NewsItem> FeedList
         {
@@ -49,18 +49,20 @@ namespace Muslims.ViewModel
 
             }
         }
-        private NewsItem selectedItem = null;
-        private NewsItem selectedItemGazeta = null;
-        private NewsItem selectedItemAdvert = null;
+
+        private NewsItem _selectedItem;
+        private NewsItem _selectedItemGazeta;
+        private NewsItem _selectedItemAdvert;
         private INavigation Navigation;
+
         public NewsItem SelectedItem
         {
-            get => selectedItem;
+            get => _selectedItem;
             set
             {
-                if (selectedItem != value)
+                if (_selectedItem != value)
                 {
-                    selectedItem = value;
+                    _selectedItem = value;
                     OnPropertyChanged("SelectedItem");
                     OpenWebPage();
                 }
@@ -68,12 +70,12 @@ namespace Muslims.ViewModel
         }
         public NewsItem SelectedItemGazeta
         {
-            get => selectedItemGazeta;
+            get => _selectedItemGazeta;
             set
             {
-                if (selectedItemGazeta != value)
+                if (_selectedItemGazeta != value)
                 {
-                    selectedItemGazeta = value;
+                    _selectedItemGazeta = value;
                     OnPropertyChanged("SelectedItemGazeta");
                     OpenWebPageGazeta();
                 }
@@ -81,12 +83,12 @@ namespace Muslims.ViewModel
         }
         public NewsItem SelectedItemAdvert
         {
-            get => selectedItemAdvert;
+            get => _selectedItemAdvert;
             set
             {
-                if (selectedItemAdvert != value)
+                if (_selectedItemAdvert != value)
                 {
-                    selectedItemAdvert = value;
+                    _selectedItemAdvert = value;
                     OnPropertyChanged("SelectedItemAdvert");
                     OpenWebPageAdvert();
                 }
@@ -98,7 +100,7 @@ namespace Muslims.ViewModel
 		private ObservableCollection<NewsItem> _feedListAdvert;
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public RSSFeedViewModel(INavigation navigation)
+        public RssFeedViewModel(INavigation navigation)
         {
 			Navigation = navigation;
 		}
@@ -125,17 +127,17 @@ namespace Muslims.ViewModel
 
         private void OpenWebPage()
         {
-            Navigation.PushAsync(new NewsPage(selectedItem.Title, selectedItem.Content, selectedItem.Image));
+            Navigation.PushAsync(new NewsPage(_selectedItem.Title, _selectedItem.Content, _selectedItem.Image));
         }
 
         private void OpenWebPageGazeta()
         {
-            Navigation.PushAsync(new NewsPage(selectedItemGazeta.Title, selectedItemGazeta.Content, selectedItemGazeta.Image));
+            Navigation.PushAsync(new NewsPage(_selectedItemGazeta.Title, _selectedItemGazeta.Content, _selectedItemGazeta.Image));
         }
 
         private void OpenWebPageAdvert()
         {
-            Navigation.PushAsync(new NewsPage(selectedItemAdvert.Title, selectedItemAdvert.Content, selectedItemAdvert.Image));
+            Navigation.PushAsync(new NewsPage(_selectedItemAdvert.Title, _selectedItemAdvert.Content, _selectedItemAdvert.Image));
         }
     }
 }

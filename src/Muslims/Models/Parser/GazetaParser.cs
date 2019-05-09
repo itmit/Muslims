@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
-using Muslims.Models;
 
-namespace Muslims.Parser
+namespace Muslims.Models.Parser
 {
 	public class GazetaParser
 	{
@@ -17,26 +17,29 @@ namespace Muslims.Parser
 			}
 
 			var doc = XDocument.Parse(response);
-			var gazetafeeds = new List<NewsItem>();
+			var newsItems = new List<NewsItem>();
 			foreach (var item in doc.Descendants("item"))
 			{
-				var gazetafeed = new NewsItem();
-				gazetafeed.Title = item.Element("title")
-									   .Value;
-				gazetafeed.Link = item.Element("link")
-									  .Value;
-				gazetafeed.Description = Regex.Replace(WebUtility.HtmlDecode(item.Element("description")
-																				 .Value),
-													   "<[^>]+>",
-													   string.Empty);
-				gazetafeed.Pubdate = item.Element("pubDate")
-										 .Value;
-				gazetafeed.Guid = item.Element("guid")
-									  .Value;
-				gazetafeeds.Add(gazetafeed);
+				var newsItem = new NewsItem
+				{
+					Title = item.Element("title")
+								?.Value,
+					Link = item.Element("link")
+							   ?.Value,
+					Description = Regex.Replace(WebUtility.HtmlDecode(item.Element("description")
+																		  ?.Value) ??
+												throw new InvalidOperationException(),
+												"<[^>]+>",
+												string.Empty),
+					Pubdate = item.Element("pubDate")
+								  ?.Value,
+					Guid = item.Element("guid")
+							   ?.Value
+				};
+				newsItems.Add(newsItem);
 			}
 
-			return gazetafeeds;
+			return newsItems;
 		}
 		#endregion
 	}

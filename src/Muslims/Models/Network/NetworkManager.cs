@@ -2,37 +2,28 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Muslims.Models;
-using Muslims.Parser;
+using Muslims.Models.Parser;
 using Plugin.Connectivity;
 
-namespace Muslims.Network
+namespace Muslims.Models.Network
 {
 	public sealed class NetworkManager
 	{
-		#region Data
-		#region Static
-		public static NetworkManager network_manager = new NetworkManager();
-		public static string network_url = "http://dum-spb.ru/feed";
-		#endregion
-		#endregion
+		private readonly string _networkUrl;
 
 		#region .ctor
-		private NetworkManager()
+		public NetworkManager(string networkUrl)
 		{
+			_networkUrl = networkUrl;
 		}
-		#endregion
-
-		#region Properties
-		public static NetworkManager Instance => network_manager;
 		#endregion
 
 		#region Public
 		public async Task<List<NewsItem>> GetSyncFeedAsync()
 		{
-			if (IsConnected())
+			if (CrossConnectivity.Current.IsConnected)
 			{
-				var uri = new Uri(network_url);
+				var uri = new Uri(_networkUrl);
 				var client = new HttpClient();
 				var response = await client.GetAsync(uri);
 				var responseString = await response.Content.ReadAsStringAsync();
@@ -43,16 +34,6 @@ namespace Muslims.Network
 			}
 
 			return null;
-		}
-
-		public bool IsConnected()
-		{
-			if (CrossConnectivity.Current.IsConnected)
-			{
-				return true;
-			}
-
-			return false;
 		}
 		#endregion
 	}

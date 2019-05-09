@@ -5,7 +5,7 @@ using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Muslims
+namespace Muslims.View.Gallery
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Cross_Gallery : ContentPage

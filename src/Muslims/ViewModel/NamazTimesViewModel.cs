@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using Muslims.Annotations;
 using Muslims.Models;
-using Muslims.Parser;
+using Muslims.Models.Parser;
 
 namespace Muslims.ViewModel
 {

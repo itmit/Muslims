@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Muslims
+namespace Muslims.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Contacts : ContentPage

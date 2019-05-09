@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Muslims.Parser;
+using Muslims.Models.Parser;
 using Plugin.LocalNotifications;
 
 namespace Muslims.Models
@@ -18,7 +18,7 @@ namespace Muslims.Models
 			var parser = new NamazTimeParser();
 			var timeList = parser.GetTodayNamazTimes();
 			TimerCallback tm = CheckNamazTime;
-			var timer = new Timer(tm, timeList, 0, 60 * 1000);
+			var unused = new Timer(tm, timeList, 0, 60 * 1000);
 		}
 
 		#region Public

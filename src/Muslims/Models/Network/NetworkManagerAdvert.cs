@@ -2,44 +2,39 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Muslims.Models;
-using Muslims.Parser;
+using Muslims.Models.Parser;
 using Plugin.Connectivity;
 
-namespace Muslims.Network
+namespace Muslims.Models.Network
 {
 	public sealed class NetworkManagerAdvert
 	{
 		#region Data
 		#region Static
-		public static NetworkManagerAdvert network_manager_advert = new NetworkManagerAdvert();
-		public static string network_url = "http://dum-spb.ru/category/advert/feed";
+		private readonly string _networkUrl;
 		#endregion
 		#endregion
 
 		#region .ctor
-		private NetworkManagerAdvert()
+		public NetworkManagerAdvert(string networkUrl)
 		{
+			_networkUrl = networkUrl;
 		}
-		#endregion
-
-		#region Properties
-		public static NetworkManagerAdvert Instance => network_manager_advert;
 		#endregion
 
 		#region Public
 		public async Task<List<NewsItem>> GetSyncFeedAsync()
 		{
-			if (IsConnected())
+			if (CrossConnectivity.Current.IsConnected)
 			{
-				var uri = new Uri(network_url);
+				var uri = new Uri(_networkUrl);
 				var client = new HttpClient();
 				var response = await client.GetAsync(uri);
-				var response_string = await response.Content.ReadAsStringAsync();
+				var responseString = await response.Content.ReadAsStringAsync();
 				var parser = new AdvertParser();
-				// List<FeedItem> list = await Task.Run(() => parser.ParseFeed(response_string));
-				var advertlist = await Task.Run(() => parser.ParseFeed(response_string));
-				return advertlist;
+
+				var advertList = await Task.Run(() => parser.ParseFeed(responseString));
+				return advertList;
 			}
 
 			return null;

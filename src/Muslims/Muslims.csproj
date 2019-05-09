@@ -81,13 +81,15 @@
     <Compile Update="Kids.xaml.cs">
       <DependentUpon>Kids.xaml</DependentUpon>
     </Compile>
+    <Compile Update="View\CellViews\CellView.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Models\CellViews\CellView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Models\CellViews\NamazTimesCell.xaml">
+    <EmbeddedResource Update="View\CellViews\CellView.xaml">
+      <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WebPage.xaml">

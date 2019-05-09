@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
-using Muslims.Models;
 
-namespace Muslims.Parser
+namespace Muslims.Models.Parser
 {
 	public class AdvertParser
 	{
@@ -17,26 +17,29 @@ namespace Muslims.Parser
 			}
 
 			var doc = XDocument.Parse(response);
-			var advertfeeds = new List<NewsItem>();
+			var parseFeed = new List<NewsItem>();
 			foreach (var item in doc.Descendants("item"))
 			{
-				var advertfeed = new NewsItem();
-				advertfeed.Title = item.Element("title")
-									   .Value;
-				advertfeed.Link = item.Element("link")
-									  .Value;
-				advertfeed.Description = Regex.Replace(WebUtility.HtmlDecode(item.Element("description")
-																				 .Value),
-													   "<[^>]+>",
-													   string.Empty);
-				advertfeed.Pubdate = item.Element("pubDate")
-										 .Value;
-				advertfeed.Guid = item.Element("guid")
-									  .Value;
-				advertfeeds.Add(advertfeed);
+				var newsItem = new NewsItem
+				{
+					Title = item.Element("title")
+								?.Value,
+					Link = item.Element("link")
+							   ?.Value,
+					Description = Regex.Replace(WebUtility.HtmlDecode(item.Element("description")
+																		  ?.Value) ??
+												throw new InvalidOperationException(),
+												"<[^>]+>",
+												string.Empty),
+					Pubdate = item.Element("pubDate")
+								  ?.Value,
+					Guid = item.Element("guid")
+							   ?.Value
+				};
+				parseFeed.Add(newsItem);
 			}
 
-			return advertfeeds;
+			return parseFeed;
 		}
 		#endregion
 	}

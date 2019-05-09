@@ -1,4 +1,5 @@
 ﻿using System;
+using Muslims.View.Gallery;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

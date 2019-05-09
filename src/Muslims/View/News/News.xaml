@@ -4,7 +4,6 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Muslims.News"
             xmlns:local="clr-namespace:Muslims"
-            xmlns:Cell="clr-namespace:Muslims.CellViews;assembly=Muslims"
             xmlns:cellViews="clr-namespace:Muslims.View.CellViews;assembly=Muslims"
             BarBackgroundColor="#67c4e5"
             Title="НОВОСТИ">

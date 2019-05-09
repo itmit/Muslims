@@ -5,23 +5,23 @@ using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Muslims
+namespace Muslims.View.Gallery
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Conference_Gallery : ContentPage
+	public partial class ConferenceGallery : ContentPage
 	{
 		#region .ctor
-		public Conference_Gallery()
+		public ConferenceGallery()
 		{
 			InitializeComponent();
-			Gallery_Item_Init();
+			GalleryItemInit();
 		}
 		#endregion
 
 		#region Public
-		public void Gallery_Item_Init()
+		private void GalleryItemInit()
 		{
-			var conf_gallery = new List<Gallery_Image>
+			var confGallery = new List<Gallery_Image>
 			{
 				new Gallery_Image
 				{
@@ -64,15 +64,15 @@ namespace Muslims
 					Image_Path = "Y2010conf_10_.jpg"
 				}
 			};
-			FlowListMenu.FlowItemsSource = conf_gallery;
+			FlowListMenu.FlowItemsSource = confGallery;
 		}
 
 		public async void ItemTappedCommand(object sender, EventArgs e)
 		{
 			if (sender is CachedImage img)
 			{
-				var FileImageSource = (FileImageSource) img.Source;
-				var strFileName = FileImageSource.File;
+				var fileImageSource = (FileImageSource) img.Source;
+				var strFileName = fileImageSource.File;
 				await PopupNavigation.Instance.PushAsync(new PopupGallary(strFileName));
 			}
 		}

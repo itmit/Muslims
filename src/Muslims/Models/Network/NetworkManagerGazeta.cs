@@ -2,57 +2,41 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Muslims.Models;
-using Muslims.Parser;
+using Muslims.Models.Parser;
 using Plugin.Connectivity;
 
-namespace Muslims.Network
+namespace Muslims.Models.Network
 {
 	public sealed class NetworkManagerGazeta
 	{
 		#region Data
-		#region Static
-		public static NetworkManagerGazeta network_manager_gazeta = new NetworkManagerGazeta();
-		public static string network_url = "http://dum-spb.ru/category/gazeta/feed";
-		#endregion
+		private readonly string _networkUrl;
+
 		#endregion
 
 		#region .ctor
-		private NetworkManagerGazeta()
+		public NetworkManagerGazeta(string networkUrl)
 		{
+			_networkUrl = networkUrl;
 		}
-		#endregion
-
-		#region Properties
-		public static NetworkManagerGazeta Instance => network_manager_gazeta;
 		#endregion
 
 		#region Public
 		public async Task<List<NewsItem>> GetSyncFeedAsync()
 		{
-			if (IsConnected())
+			if (CrossConnectivity.Current.IsConnected)
 			{
-				var uri = new Uri(network_url);
+				var uri = new Uri(_networkUrl);
 				var client = new HttpClient();
 				var response = await client.GetAsync(uri);
-				var response_string = await response.Content.ReadAsStringAsync();
+				var responseString = await response.Content.ReadAsStringAsync();
 				var parser = new GazetaParser();
-				// List<FeedItem> list = await Task.Run(() => parser.ParseFeed(response_string));
-				var gazetalist = await Task.Run(() => parser.ParseFeed(response_string));
-				return gazetalist;
+
+				var gazetaList = await Task.Run(() => parser.ParseFeed(responseString));
+				return gazetaList;
 			}
 
 			return null;
-		}
-
-		public bool IsConnected()
-		{
-			if (CrossConnectivity.Current.IsConnected)
-			{
-				return true;
-			}
-
-			return false;
 		}
 		#endregion
 	}

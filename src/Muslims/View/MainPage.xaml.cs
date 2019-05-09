@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Android.Content;
 using Android.Net;
+using Muslims.View;
 using Plugin.Connectivity;
 using Xamarin.Forms;
 using Application = Android.App.Application;

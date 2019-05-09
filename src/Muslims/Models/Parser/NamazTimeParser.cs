@@ -4,9 +4,8 @@ using System.IO;
 using System.Linq;
 using Android.App;
 using CsvHelper;
-using Muslims.Models;
 
-namespace Muslims.Parser
+namespace Muslims.Models.Parser
 {
 	internal class NamazTimeParser
 	{

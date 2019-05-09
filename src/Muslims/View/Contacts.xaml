@@ -2,26 +2,26 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Muslims.Contacts"
+             x:Class="Muslims.View.Contacts"
              Title="КОНТАКТЫ">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="15,0,0,0">
-                <Label Font="Bold,20" Text="Наши телефоны :" />
+                <Label FontAttributes="Bold" FontSize="20" Text="Наши телефоны :" />
                 <Label Text="Приемная: +7 (812) 498-40-75, +7 (812) 233-95-58" />
                 <Label Text="Канцелярия: +7 (812) 233-98-19" />
                 <Label Text="Часы работы канцелярии Соборной мечети: с 10-00 до 17-00 без выходных дней" />
                 <Label Text="Адрес электронной почты: dum-spb@mail.ru" />
                 <Label Text="Страница ВКонтакте: https://vk.com/dumspb" />
-                <Label Font="Bold,20" Text="Наши координаты :" />
+                <Label FontAttributes="Bold" FontSize="20" Text="Наши координаты :" />
                 <Label Text="Главная Санкт-Петербургская Соборная мечеть" />
                 <Label Text="197046, Санкт-Петербург, Петроградский район, Кронверкский пр., дом 7" />
                 <Label Text="www.islam-spb.ru" />
                 <Label Text="Полная вместимость 3-х этажей – до 7 тысяч человек" />
-                <Label Font="Bold,20" Text="Мемориальная мечеть имени муфтия Жафяра-хазрат Пончаева:" />
+                <Label FontAttributes="Bold" FontSize="20" Text="Мемориальная мечеть имени муфтия Жафяра-хазрат Пончаева:" />
                 <Label Text="197349, Санкт-Петербург, Приморский район, ул. Репищева, дом 1" />
                 <Label Text="Полная вместимость 3-х этажей – до 1,5 тысяч человек" />
-                <Label Font="Bold,20" Text="Молельная комната:" />
+                <Label FontAttributes="Bold" FontSize="20" Text="Молельная комната:" />
                 <Label Text='Санкт-Петербург, Московский пр., дом 10-12 "Г"' />
                 <Label Text="Вместимость: до 1 тысячи человек" />
             </StackLayout>
