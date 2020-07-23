@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using Muslims.Models;
 using Muslims.Models.Network;
+using Muslims.View.News;
 using Xamarin.Forms;
 
 namespace Muslims.ViewModel

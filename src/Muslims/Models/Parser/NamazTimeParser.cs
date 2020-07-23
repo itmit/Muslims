@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Android.App;
 using CsvHelper;
 
 namespace Muslims.Models.Parser
@@ -12,21 +11,24 @@ namespace Muslims.Models.Parser
 		#region .ctor
 		public NamazTimeParser()
 		{
-			if (NamazTimesRows == null)
+			if (NamazTimesRows != null)
 			{
-				NamazTimesRows = new List<NamazTimesRow>();
-				var stream = Application.Context.Assets.Open("wtf.csv");
-				using (var reader = new StreamReader(stream))
+				return;
+			}
+			/*
+			NamazTimesRows = new List<NamazTimesRow>();
+			var stream = Application.Context.Assets.Open("wtf.csv");
+			using (var reader = new StreamReader(stream))
+			{
+				var csv = new CsvReader(reader);
+				csv.Configuration.Delimiter = ";";
+				csv.Configuration.MissingFieldFound = null;
+				while (csv.Read())
 				{
-					var csv = new CsvReader(reader);
-					csv.Configuration.Delimiter = ";";
-					csv.Configuration.MissingFieldFound = null;
-					while (csv.Read())
-					{
-						NamazTimesRows.Add(csv.GetRecord<NamazTimesRow>());
-					}
+					NamazTimesRows.Add(csv.GetRecord<NamazTimesRow>());
 				}
 			}
+			*/
 		}
 		#endregion
 
@@ -41,7 +43,7 @@ namespace Muslims.Models.Parser
 		#region Public
 		public NamazTimesRow GetTodayNamazTimes()
 		{
-			return NamazTimesRows.Single(row => row.Day == DateTime.Now.Day.ToString() && row.Mouth == DateTime.Now.Month.ToString());
+			return NamazTimesRows?.SingleOrDefault(row => row.Day == DateTime.Now.Day.ToString() && row.Mouth == DateTime.Now.Month.ToString());
 		}
 		#endregion
 	}

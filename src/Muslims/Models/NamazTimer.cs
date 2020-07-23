@@ -17,6 +17,10 @@ namespace Muslims.Models
 		{
 			var parser = new NamazTimeParser();
 			var timeList = parser.GetTodayNamazTimes();
+			if (timeList == null)
+			{
+				return;
+			}
 			TimerCallback tm = CheckNamazTime;
 			var unused = new Timer(tm, timeList, 0, 60 * 1000);
 		}
@@ -24,12 +28,14 @@ namespace Muslims.Models
 		#region Public
 		private static void CheckNamazTime(object obj)
 		{
-			if (obj is NamazTimesRow namazTime)
+			if (!(obj is NamazTimesRow namazTime))
 			{
-				if (CheckTime(namazTime))
-				{
-					CrossLocalNotifications.Current.Show("Намаз!", "До Намаза осталось 30 минут!");
-				}
+				return;
+			}
+
+			if (CheckTime(namazTime))
+			{
+				CrossLocalNotifications.Current.Show("Намаз!", "До Намаза осталось 30 минут!");
 			}
 		}
 

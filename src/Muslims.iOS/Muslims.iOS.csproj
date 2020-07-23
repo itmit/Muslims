@@ -148,7 +148,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1142" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -156,5 +156,818 @@
       <Project>{C37E7B19-F013-4331-8650-B0AE9750FEF0}</Project>
       <Name>Muslims</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2014_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg_biblioteka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg_biblioteka_blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg_blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Conditions_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Conditions_2_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ico_prilozh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icoi_prilozh_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kurb_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kurb_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kurb_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kurb_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kurb_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo_start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\menu_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\muslims.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Order_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Order_1_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Perpetration_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Perpetration_3_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\poryadok_soversheniya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Prayers_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Prayers_5_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_13_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_14_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_15_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_16_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_17_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_18_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_19_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_20_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_21_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_22_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_23_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_24_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_25_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_26_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_27_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_28_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_29_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_30_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2010_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2011_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_2012_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spb_ico_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_13_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_14_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_15_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_16_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_17_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_18_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_19_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_20_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_21_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_22_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_23_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spbt_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Time_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Time_4_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010conf_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010iftar_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010iftar_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010iftar_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010iftar_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010kurban2_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010mdeal_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010mdeal_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010mdeal_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010port_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2010uraza_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011cross_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011gen_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011kurban_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011kurban_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011kurban_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011kurban_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011kurban_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011pisc_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011traur_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011tukaev_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011tukaev_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011tukaev_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2011viborg_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012miting_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012pisc_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012pisc_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012pisc_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012pisc_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_11_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_12_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_13_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_14_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012proshanie_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012sabantuy_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012sabantuy_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012sabantuy_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012sabantuy_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012sabantuy_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012soviet_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012soviet_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012soviet_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012soviet_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012tavrich_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012tavrich_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012tavrich_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2012tavrich_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_10_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_2_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_3_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_7_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_8_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2013_9_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Y2014_1_.jpg" />
   </ItemGroup>
 </Project>

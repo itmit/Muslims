@@ -1,7 +1,8 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Muslims.Models;
-
+using Muslims.View;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Muslims
@@ -18,7 +19,14 @@ namespace Muslims
 
         protected override void OnStart()
         {
-            NamazTimer.StartTimer();
+			try
+			{
+				NamazTimer.StartTimer();
+			}
+            catch (Exception e)
+			{
+				Console.WriteLine(e);
+			}
         }
 
         protected override void OnSleep()
